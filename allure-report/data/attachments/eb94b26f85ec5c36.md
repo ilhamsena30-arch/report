@@ -1,0 +1,168 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e7]:
+        - link "Portal SIPHR" [ref=e9] [cursor=pointer]:
+          - /url: /
+          - img [ref=e10]
+          - generic [ref=e13]: Portal SIPHR
+        - navigation "Breadcrumb" [ref=e14]:
+          - navigation "breadcrumb" [ref=e15]:
+            - list [ref=e16]:
+              - generic [ref=e17]:
+                - listitem [ref=e18]: /
+                - listitem [ref=e19]:
+                  - link "Navigasi ke Manajemen Tenaga Kerja" [ref=e20] [cursor=pointer]:
+                    - /url: /manajemen-tenaga-kerja
+                    - text: Manajemen Tenaga Kerja
+              - generic [ref=e21]:
+                - listitem [ref=e22]: /
+                - listitem [ref=e23]:
+                  - link "Navigasi ke Kehadiran" [ref=e24] [cursor=pointer]:
+                    - /url: /manajemen-tenaga-kerja/attendance
+                    - text: Kehadiran
+              - generic [ref=e25]:
+                - listitem [ref=e26]: /
+                - listitem [ref=e27]:
+                  - 'link "Halaman saat ini: Kehadiran Online" [disabled] [ref=e28]': Kehadiran Online
+      - generic [ref=e29]:
+        - link "BGN Logo" [ref=e30] [cursor=pointer]:
+          - /url: /
+          - img "BGN Logo" [ref=e31]
+        - generic [ref=e32]:
+          - button [ref=e33] [cursor=pointer]:
+            - img
+          - button "M" [ref=e34] [cursor=pointer]:
+            - generic [ref=e35]: M
+          - button "Toggle menu" [ref=e36] [cursor=pointer]:
+            - img
+            - generic [ref=e37]: Toggle menu
+    - generic [ref=e39]:
+      - generic [ref=e41]:
+        - heading "Manajemen Tenaga Kerja" [level=2] [ref=e43]
+        - button [ref=e44] [cursor=pointer]:
+          - img
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - heading "Kantor Pusat" [level=3] [ref=e47]
+            - link "Database Karyawan" [ref=e50] [cursor=pointer]:
+              - /url: /manajemen-tenaga-kerja/employees
+              - img [ref=e51]
+              - text: Database Karyawan
+          - generic [ref=e54]:
+            - heading "Dapur" [level=3] [ref=e55]
+            - generic [ref=e56]:
+              - link "Staf Dapur" [ref=e58] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/kitchen-employees
+                - img [ref=e59]
+                - text: Staf Dapur
+              - link "Database Dapur" [ref=e62] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/kitchen
+                - img [ref=e63]
+                - text: Database Dapur
+              - link "Pengajuan PHL" [ref=e66] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/dapur/pengajuan-phl
+                - img [ref=e67]
+                - text: Pengajuan PHL
+              - link "Struktur Organisasi" [ref=e73] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/dapur/struktur-organisasi
+                - img [ref=e74]
+                - text: Struktur Organisasi
+          - generic [ref=e79]:
+            - heading "Manajemen" [level=3] [ref=e80]
+            - generic [ref=e81]:
+              - link "Verifikasi QR" [ref=e83] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/dapur/qr-verification
+                - img [ref=e84]
+                - text: Verifikasi QR
+              - link "Kehadiran" [ref=e91] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/attendance
+                - img [ref=e92]
+                - text: Kehadiran
+              - link "Kehadiran Online" [ref=e96] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/attendance/online
+                - img [ref=e97]
+                - text: Kehadiran Online
+              - link "Aktivitas Harian" [ref=e102] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/aktivitas-harian
+                - img [ref=e103]
+                - text: Aktivitas Harian
+              - link "Jadwal Pekerja" [ref=e107] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/attendance/shift
+                - img [ref=e108]
+                - text: Jadwal Pekerja
+              - link "Manajemen Cuti" [ref=e114] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/leave
+                - img [ref=e115]
+                - text: Manajemen Cuti
+          - generic [ref=e117]:
+            - heading "Penggajian" [level=3] [ref=e118]
+            - generic [ref=e119]:
+              - link "Laporan" [ref=e121] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/payroll
+                - img [ref=e122]
+                - text: Laporan
+              - link "Buat Laporan" [ref=e126] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/payroll/create
+                - img [ref=e127]
+                - text: Buat Laporan
+      - main [ref=e130]:
+        - generic [ref=e131]:
+          - heading "Kehadiran Online" [level=1] [ref=e133]
+          - generic [ref=e134]:
+            - tablist [ref=e135]:
+              - tab "Presensi" [selected] [ref=e136] [cursor=pointer]
+              - tab "Riwayat" [ref=e137] [cursor=pointer]
+            - tabpanel "Presensi" [ref=e138]:
+              - generic [ref=e139]:
+                - generic [ref=e140]:
+                  - heading "10:17 AM" [level=3] [ref=e141]
+                  - paragraph [ref=e142]: Kamis, 15 Jan 2026
+                - generic [ref=e143]:
+                  - generic [ref=e144]:
+                    - text: Catatan (opsional)
+                    - textbox "Catatan (opsional)" [ref=e145]
+                  - generic [ref=e148]:
+                    - img [ref=e149]
+                    - generic [ref=e152]: Lokasi berhasil terdeteksi
+                  - generic [ref=e153]:
+                    - button "Masuk" [disabled]
+                    - button "Pulang" [disabled]
+                  - generic [ref=e154]:
+                    - heading "Riwayat Kehadiran Hari Ini" [level=2] [ref=e155]
+                    - generic [ref=e156]:
+                      - generic [ref=e157]:
+                        - generic [ref=e158]:
+                          - paragraph [ref=e159]: 00:10
+                          - paragraph [ref=e160]: 15-01-2026
+                        - text: Keluar
+                        - link "Lihat Detail" [ref=e161] [cursor=pointer]:
+                          - /url: /manajemen-tenaga-kerja/attendance/1a4601b4-417b-4b9e-9394-e0f89a7c7220
+                      - generic [ref=e162]:
+                        - generic [ref=e163]:
+                          - paragraph [ref=e164]: 00:10
+                          - paragraph [ref=e165]: 15-01-2026
+                        - text: Masuk
+                        - link "Lihat Detail" [ref=e166] [cursor=pointer]:
+                          - /url: /manajemen-tenaga-kerja/attendance/1a4601b4-417b-4b9e-9394-e0f89a7c7220
+    - contentinfo [ref=e167]:
+      - generic [ref=e168]:
+        - paragraph [ref=e169]: © 2026 BGN Head Office Support System. All rights reserved.
+        - generic [ref=e170]:
+          - link "Terms of Service" [ref=e171] [cursor=pointer]:
+            - /url: /terms-of-service
+          - link "Privacy Policy" [ref=e172] [cursor=pointer]:
+            - /url: /privacy-policy
+    - region "Notifications (F8)":
+      - list
+    - generic [ref=e173]:
+      - button "Hide support label" [ref=e174] [cursor=pointer]:
+        - img "WhatsApp Support Label" [ref=e175]
+      - link "Contact WhatsApp support" [ref=e176] [cursor=pointer]:
+        - /url: https://wa.me/6281110008008
+        - img "WhatsApp Support" [ref=e177]
+```

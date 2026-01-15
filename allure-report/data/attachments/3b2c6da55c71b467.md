@@ -1,0 +1,102 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e7]:
+        - link "Portal SIPHR" [ref=e9] [cursor=pointer]:
+          - /url: /
+          - img [ref=e10]
+          - generic [ref=e13]: Portal SIPHR
+        - navigation "Breadcrumb" [ref=e14]:
+          - navigation "breadcrumb" [ref=e15]:
+            - list [ref=e16]:
+              - generic [ref=e17]:
+                - listitem [ref=e18]: /
+                - listitem [ref=e19]:
+                  - link "Navigasi ke Manajemen Tenaga Kerja" [ref=e20] [cursor=pointer]:
+                    - /url: /manajemen-tenaga-kerja
+                    - text: Manajemen Tenaga Kerja
+              - generic [ref=e21]:
+                - listitem [ref=e22]: /
+                - listitem [ref=e23]:
+                  - link "Navigasi ke Kehadiran" [ref=e24] [cursor=pointer]:
+                    - /url: /manajemen-tenaga-kerja/attendance
+                    - text: Kehadiran
+              - generic [ref=e25]:
+                - listitem [ref=e26]: /
+                - listitem [ref=e27]:
+                  - 'link "Halaman saat ini: Kehadiran Online" [disabled] [ref=e28]': Kehadiran Online
+      - generic [ref=e29]:
+        - link "BGN Logo" [ref=e30] [cursor=pointer]:
+          - /url: /
+          - img "BGN Logo" [ref=e31]
+        - generic [ref=e32]:
+          - button [ref=e33] [cursor=pointer]:
+            - img
+          - button "S" [ref=e34] [cursor=pointer]:
+            - generic [ref=e35]: S
+          - button "Toggle menu" [ref=e36] [cursor=pointer]:
+            - img
+            - generic [ref=e37]: Toggle menu
+    - generic [ref=e39]:
+      - generic [ref=e41]:
+        - heading "Manajemen Tenaga Kerja" [level=2] [ref=e43]
+        - button [ref=e44] [cursor=pointer]:
+          - img
+        - generic [ref=e46]:
+          - heading "Manajemen" [level=3] [ref=e47]
+          - generic [ref=e48]:
+            - link "Kehadiran Online" [ref=e50] [cursor=pointer]:
+              - /url: /manajemen-tenaga-kerja/attendance/online
+              - img [ref=e51]
+              - text: Kehadiran Online
+            - link "Aktivitas Harian" [ref=e56] [cursor=pointer]:
+              - /url: /manajemen-tenaga-kerja/aktivitas-harian
+              - img [ref=e57]
+              - text: Aktivitas Harian
+            - link "Manajemen Cuti" [ref=e61] [cursor=pointer]:
+              - /url: /manajemen-tenaga-kerja/leave
+              - img [ref=e62]
+              - text: Manajemen Cuti
+      - main [ref=e64]:
+        - generic [ref=e65]:
+          - heading "Kehadiran Online" [level=1] [ref=e67]
+          - generic [ref=e68]:
+            - tablist [ref=e69]:
+              - tab "Presensi" [ref=e70] [cursor=pointer]
+              - tab "Riwayat" [active] [selected] [ref=e71] [cursor=pointer]
+            - tabpanel "Riwayat" [ref=e72]:
+              - generic [ref=e73]:
+                - heading "Riwayat Kehadiran" [level=3] [ref=e75]
+                - table [ref=e79]:
+                  - rowgroup [ref=e80]:
+                    - row "Tanggal Waktu Tipe Lokasi Metode Presensi Status" [ref=e81]:
+                      - columnheader "Tanggal" [ref=e82]
+                      - columnheader "Waktu" [ref=e83]
+                      - columnheader "Tipe" [ref=e84]
+                      - columnheader "Lokasi" [ref=e85]
+                      - columnheader "Metode Presensi" [ref=e86]
+                      - columnheader "Status" [ref=e87]
+                  - rowgroup [ref=e88]:
+                    - row "Data riwayat kehadiran tidak ditemukan." [ref=e89]:
+                      - cell "Data riwayat kehadiran tidak ditemukan." [ref=e90]
+    - contentinfo [ref=e91]:
+      - generic [ref=e92]:
+        - paragraph [ref=e93]: © 2026 BGN Head Office Support System. All rights reserved.
+        - generic [ref=e94]:
+          - link "Terms of Service" [ref=e95] [cursor=pointer]:
+            - /url: /terms-of-service
+          - link "Privacy Policy" [ref=e96] [cursor=pointer]:
+            - /url: /privacy-policy
+    - region "Notifications (F8)":
+      - list
+    - generic [ref=e97]:
+      - button "Hide support label" [ref=e98] [cursor=pointer]:
+        - img "WhatsApp Support Label" [ref=e99]
+      - link "Contact WhatsApp support" [ref=e100] [cursor=pointer]:
+        - /url: https://wa.me/6281110008008
+        - img "WhatsApp Support" [ref=e101]
+```

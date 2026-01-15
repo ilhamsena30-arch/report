@@ -1,0 +1,438 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e7]:
+    - img [ref=e8]
+    - generic [ref=e11]: Loading...
+  - generic [ref=e12]:
+    - banner [ref=e13]:
+      - generic [ref=e16]:
+        - link "Portal SIPHR" [ref=e18] [cursor=pointer]:
+          - /url: /
+          - img [ref=e19]
+          - generic [ref=e22]: Portal SIPHR
+        - navigation "Breadcrumb" [ref=e23]:
+          - navigation "breadcrumb" [ref=e24]:
+            - list [ref=e25]:
+              - generic [ref=e26]:
+                - listitem [ref=e27]: /
+                - listitem [ref=e28]:
+                  - link "Navigasi ke Manajemen Tenaga Kerja" [ref=e29] [cursor=pointer]:
+                    - /url: /manajemen-tenaga-kerja
+                    - text: Manajemen Tenaga Kerja
+              - generic [ref=e30]:
+                - listitem [ref=e31]: /
+                - listitem [ref=e32]:
+                  - 'link "Halaman saat ini: Database Karyawan" [disabled] [ref=e33]': Database Karyawan
+      - generic [ref=e34]:
+        - link "BGN Logo" [ref=e35] [cursor=pointer]:
+          - /url: /
+          - img "BGN Logo" [ref=e36]
+        - generic [ref=e37]:
+          - button [ref=e38] [cursor=pointer]:
+            - img
+          - button "M" [ref=e39] [cursor=pointer]:
+            - generic [ref=e40]: M
+          - button "Toggle menu" [ref=e41] [cursor=pointer]:
+            - img
+            - generic [ref=e42]: Toggle menu
+    - generic [ref=e44]:
+      - generic [ref=e46]:
+        - heading "Manajemen Tenaga Kerja" [level=2] [ref=e48]
+        - button [ref=e49] [cursor=pointer]:
+          - img
+        - generic [ref=e50]:
+          - generic [ref=e51]:
+            - heading "Kantor Pusat" [level=3] [ref=e52]
+            - link "Database Karyawan" [active] [ref=e55] [cursor=pointer]:
+              - /url: /manajemen-tenaga-kerja/employees
+              - img [ref=e56]
+              - text: Database Karyawan
+          - generic [ref=e59]:
+            - heading "Dapur" [level=3] [ref=e60]
+            - generic [ref=e61]:
+              - link "Staf Dapur" [ref=e63] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/kitchen-employees
+                - img [ref=e64]
+                - text: Staf Dapur
+              - link "Database Dapur" [ref=e67] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/kitchen
+                - img [ref=e68]
+                - text: Database Dapur
+              - link "Pengajuan PHL" [ref=e71] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/dapur/pengajuan-phl
+                - img [ref=e72]
+                - text: Pengajuan PHL
+              - link "Struktur Organisasi" [ref=e78] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/dapur/struktur-organisasi
+                - img [ref=e79]
+                - text: Struktur Organisasi
+          - generic [ref=e84]:
+            - heading "Manajemen" [level=3] [ref=e85]
+            - generic [ref=e86]:
+              - link "Verifikasi QR" [ref=e88] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/dapur/qr-verification
+                - img [ref=e89]
+                - text: Verifikasi QR
+              - link "Kehadiran" [ref=e96] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/attendance
+                - img [ref=e97]
+                - text: Kehadiran
+              - link "Kehadiran Online" [ref=e101] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/attendance/online
+                - img [ref=e102]
+                - text: Kehadiran Online
+              - link "Aktivitas Harian" [ref=e107] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/aktivitas-harian
+                - img [ref=e108]
+                - text: Aktivitas Harian
+              - link "Jadwal Pekerja" [ref=e112] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/attendance/shift
+                - img [ref=e113]
+                - text: Jadwal Pekerja
+              - link "Manajemen Cuti" [ref=e119] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/leave
+                - img [ref=e120]
+                - text: Manajemen Cuti
+          - generic [ref=e122]:
+            - heading "Penggajian" [level=3] [ref=e123]
+            - generic [ref=e124]:
+              - link "Laporan" [ref=e126] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/payroll
+                - img [ref=e127]
+                - text: Laporan
+              - link "Buat Laporan" [ref=e131] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/payroll/create
+                - img [ref=e132]
+                - text: Buat Laporan
+      - main [ref=e135]:
+        - generic [ref=e136]:
+          - generic [ref=e137]:
+            - heading "Karyawan Kantor Pusat" [level=2] [ref=e138]
+            - link "Tambah Karyawan" [ref=e139] [cursor=pointer]:
+              - /url: /manajemen-tenaga-kerja/employees/new
+              - button "Tambah Karyawan" [ref=e140]
+          - generic [ref=e141]:
+            - generic [ref=e142]:
+              - generic [ref=e143]:
+                - heading "Total Karyawan" [level=3] [ref=e144]
+                - img [ref=e145]
+              - generic [ref=e151]: "2874"
+            - generic [ref=e152]:
+              - generic [ref=e153]:
+                - heading "Karyawan Aktif" [level=3] [ref=e154]
+                - img [ref=e155]
+              - generic [ref=e160]: "2870"
+            - generic [ref=e161]:
+              - generic [ref=e162]:
+                - heading "Karyawan Non-Aktif" [level=3] [ref=e163]
+                - img [ref=e164]
+              - generic [ref=e170]: "4"
+            - generic [ref=e171]:
+              - generic [ref=e172]:
+                - heading "Departemen" [level=3] [ref=e173]
+                - img [ref=e174]
+              - generic [ref=e178]: "16"
+          - generic [ref=e180]:
+            - generic [ref=e182]:
+              - img [ref=e183]
+              - textbox "Cari karyawan..." [ref=e186]
+            - button "Tambah filter" [ref=e187] [cursor=pointer]:
+              - img
+              - text: Tambah filter
+          - generic [ref=e188]:
+            - generic [ref=e189]:
+              - generic [ref=e191]:
+                - generic [ref=e192]:
+                  - generic [ref=e194]: B
+                  - generic [ref=e195]:
+                    - heading "Boga Hardhanaa, S.Si, M.M." [level=3] [ref=e196]
+                    - paragraph [ref=e197]: Kepala SPPG
+                  - button "Buka menu" [ref=e198] [cursor=pointer]:
+                    - generic [ref=e199]: Buka menu
+                    - img
+                - generic [ref=e200]:
+                  - generic [ref=e201]:
+                    - generic [ref=e202]: "ID Karyawan:"
+                    - generic [ref=e203]: ASN012
+                  - generic [ref=e204]:
+                    - generic [ref=e205]: "Departemen:"
+                    - generic [ref=e206]: Kepala Badan
+                  - generic [ref=e207]:
+                    - generic [ref=e208]: "Tipe Karyawan:"
+                    - generic [ref=e209]: ASN
+                  - generic [ref=e210]:
+                    - generic [ref=e211]: "Pangkat ASN:"
+                    - generic [ref=e212]: Juru Tingkat I
+                  - generic [ref=e213]:
+                    - generic [ref=e214]: "Posisi:"
+                    - generic [ref=e215]: Kepala SPPG
+                  - generic [ref=e216]:
+                    - generic [ref=e217]: "Status:"
+                    - generic [ref=e218]: ACTIVE
+              - generic [ref=e220]:
+                - generic [ref=e221]:
+                  - generic [ref=e223]: A
+                  - generic [ref=e224]:
+                    - heading "Alfie 4321" [level=3] [ref=e225]
+                    - paragraph [ref=e226]: Kepala SPPG
+                  - button "Buka menu" [ref=e227] [cursor=pointer]:
+                    - generic [ref=e228]: Buka menu
+                    - img
+                - generic [ref=e229]:
+                  - generic [ref=e231]: "ID Karyawan:"
+                  - generic [ref=e232]:
+                    - generic [ref=e233]: "Departemen:"
+                    - generic [ref=e234]: Kepala Badan
+                  - generic [ref=e235]:
+                    - generic [ref=e236]: "Tipe Karyawan:"
+                    - generic [ref=e237]: ASN
+                  - generic [ref=e238]:
+                    - generic [ref=e239]: "Pangkat ASN:"
+                    - generic [ref=e240]: Pengatur Tingkat I
+                  - generic [ref=e241]:
+                    - generic [ref=e242]: "Posisi:"
+                    - generic [ref=e243]: Kepala SPPG
+                  - generic [ref=e244]:
+                    - generic [ref=e245]: "Status:"
+                    - generic [ref=e246]: INACTIVE
+              - generic [ref=e248]:
+                - generic [ref=e249]:
+                  - generic [ref=e251]: "N"
+                  - generic [ref=e252]:
+                    - heading "Nana Suryana" [level=3] [ref=e253]
+                    - paragraph [ref=e254]: Staf
+                  - button "Buka menu" [ref=e255] [cursor=pointer]:
+                    - generic [ref=e256]: Buka menu
+                    - img
+                - generic [ref=e257]:
+                  - generic [ref=e259]: "ID Karyawan:"
+                  - generic [ref=e260]:
+                    - generic [ref=e261]: "Departemen:"
+                    - generic [ref=e262]: Pusat Data dan Informasi
+                  - generic [ref=e263]:
+                    - generic [ref=e264]: "Tipe Karyawan:"
+                    - generic [ref=e265]: NON ASN
+                  - generic [ref=e266]:
+                    - generic [ref=e267]: "Pangkat ASN:"
+                    - generic [ref=e268]: "-"
+                  - generic [ref=e269]:
+                    - generic [ref=e270]: "Posisi:"
+                    - generic [ref=e271]: Staf
+                  - generic [ref=e272]:
+                    - generic [ref=e273]: "Status:"
+                    - generic [ref=e274]: ACTIVE
+              - generic [ref=e276]:
+                - generic [ref=e277]:
+                  - generic [ref=e279]: A
+                  - generic [ref=e280]:
+                    - heading "Ahmad Furqon" [level=3] [ref=e281]
+                    - paragraph [ref=e282]: Direktorat Pengawasan dan Pemantauan Wilayah III
+                  - button "Buka menu" [ref=e283] [cursor=pointer]:
+                    - generic [ref=e284]: Buka menu
+                    - img
+                - generic [ref=e285]:
+                  - generic [ref=e286]:
+                    - generic [ref=e287]: "ID Karyawan:"
+                    - generic [ref=e288]: ASN016
+                  - generic [ref=e289]:
+                    - generic [ref=e290]: "Departemen:"
+                    - generic [ref=e291]: Wakil Kepala Badan
+                  - generic [ref=e292]:
+                    - generic [ref=e293]: "Tipe Karyawan:"
+                    - generic [ref=e294]: ASN
+                  - generic [ref=e295]:
+                    - generic [ref=e296]: "Pangkat ASN:"
+                    - generic [ref=e297]: Pengatur Muda Tingkat I
+                  - generic [ref=e298]:
+                    - generic [ref=e299]: "Posisi:"
+                    - generic [ref=e300]: Direktorat Pengawasan dan Pemantauan Wilayah III
+                  - generic [ref=e301]:
+                    - generic [ref=e302]: "Status:"
+                    - generic [ref=e303]: ACTIVE
+              - generic [ref=e305]:
+                - generic [ref=e306]:
+                  - generic [ref=e308]: D
+                  - generic [ref=e309]:
+                    - heading "Dicki Aushaf" [level=3] [ref=e310]
+                    - paragraph [ref=e311]: Direktorat Pengawasan dan Pemantauan Wilayah III
+                  - button "Buka menu" [ref=e312] [cursor=pointer]:
+                    - generic [ref=e313]: Buka menu
+                    - img
+                - generic [ref=e314]:
+                  - generic [ref=e315]:
+                    - generic [ref=e316]: "ID Karyawan:"
+                    - generic [ref=e317]: ASN017
+                  - generic [ref=e318]:
+                    - generic [ref=e319]: "Departemen:"
+                    - generic [ref=e320]: Pusat Data dan Informasi
+                  - generic [ref=e321]:
+                    - generic [ref=e322]: "Tipe Karyawan:"
+                    - generic [ref=e323]: ASN
+                  - generic [ref=e324]:
+                    - generic [ref=e325]: "Pangkat ASN:"
+                    - generic [ref=e326]: Pengatur Muda
+                  - generic [ref=e327]:
+                    - generic [ref=e328]: "Posisi:"
+                    - generic [ref=e329]: Direktorat Pengawasan dan Pemantauan Wilayah III
+                  - generic [ref=e330]:
+                    - generic [ref=e331]: "Status:"
+                    - generic [ref=e332]: ACTIVE
+              - generic [ref=e334]:
+                - generic [ref=e335]:
+                  - generic [ref=e337]: S
+                  - generic [ref=e338]:
+                    - heading "Suhael Rizqullah" [level=3] [ref=e339]
+                    - paragraph [ref=e340]: Direktorat Kerjasama dan Kemitraan
+                  - button "Buka menu" [ref=e341] [cursor=pointer]:
+                    - generic [ref=e342]: Buka menu
+                    - img
+                - generic [ref=e343]:
+                  - generic [ref=e344]:
+                    - generic [ref=e345]: "ID Karyawan:"
+                    - generic [ref=e346]: ASN019
+                  - generic [ref=e347]:
+                    - generic [ref=e348]: "Departemen:"
+                    - generic [ref=e349]: Deputi Bidang Pemantauan dan Pengawasan
+                  - generic [ref=e350]:
+                    - generic [ref=e351]: "Tipe Karyawan:"
+                    - generic [ref=e352]: ASN
+                  - generic [ref=e353]:
+                    - generic [ref=e354]: "Pangkat ASN:"
+                    - generic [ref=e355]: Pengatur Tingkat I
+                  - generic [ref=e356]:
+                    - generic [ref=e357]: "Posisi:"
+                    - generic [ref=e358]: Direktorat Kerjasama dan Kemitraan
+                  - generic [ref=e359]:
+                    - generic [ref=e360]: "Status:"
+                    - generic [ref=e361]: ACTIVE
+              - generic [ref=e363]:
+                - generic [ref=e364]:
+                  - generic [ref=e366]: P
+                  - generic [ref=e367]:
+                    - heading "portal.mitra-1@bgn.com" [level=3] [ref=e368]
+                    - paragraph [ref=e369]: Staf
+                  - button "Buka menu" [ref=e370] [cursor=pointer]:
+                    - generic [ref=e371]: Buka menu
+                    - img
+                - generic [ref=e372]:
+                  - generic [ref=e373]:
+                    - generic [ref=e374]: "ID Karyawan:"
+                    - generic [ref=e375]: NON197
+                  - generic [ref=e376]:
+                    - generic [ref=e377]: "Departemen:"
+                    - generic [ref=e378]: Kepala Badan
+                  - generic [ref=e379]:
+                    - generic [ref=e380]: "Tipe Karyawan:"
+                    - generic [ref=e381]: NON ASN
+                  - generic [ref=e382]:
+                    - generic [ref=e383]: "Pangkat ASN:"
+                    - generic [ref=e384]: "-"
+                  - generic [ref=e385]:
+                    - generic [ref=e386]: "Posisi:"
+                    - generic [ref=e387]: Staf
+                  - generic [ref=e388]:
+                    - generic [ref=e389]: "Status:"
+                    - generic [ref=e390]: ACTIVE
+              - generic [ref=e392]:
+                - generic [ref=e393]:
+                  - generic [ref=e395]: P
+                  - generic [ref=e396]:
+                    - heading "portal.mitra-2@bgn.com" [level=3] [ref=e397]
+                    - paragraph [ref=e398]: Staf
+                  - button "Buka menu" [ref=e399] [cursor=pointer]:
+                    - generic [ref=e400]: Buka menu
+                    - img
+                - generic [ref=e401]:
+                  - generic [ref=e402]:
+                    - generic [ref=e403]: "ID Karyawan:"
+                    - generic [ref=e404]: NON198
+                  - generic [ref=e405]:
+                    - generic [ref=e406]: "Departemen:"
+                    - generic [ref=e407]: Sekretariat Tata Usaha Kepala Badan
+                  - generic [ref=e408]:
+                    - generic [ref=e409]: "Tipe Karyawan:"
+                    - generic [ref=e410]: NON ASN
+                  - generic [ref=e411]:
+                    - generic [ref=e412]: "Pangkat ASN:"
+                    - generic [ref=e413]: "-"
+                  - generic [ref=e414]:
+                    - generic [ref=e415]: "Posisi:"
+                    - generic [ref=e416]: Staf
+                  - generic [ref=e417]:
+                    - generic [ref=e418]: "Status:"
+                    - generic [ref=e419]: ACTIVE
+              - generic [ref=e421]:
+                - generic [ref=e422]:
+                  - generic [ref=e424]: S
+                  - generic [ref=e425]:
+                    - heading "Suhael Rizqullah" [level=3] [ref=e426]
+                    - paragraph [ref=e427]: Staf
+                  - button "Buka menu" [ref=e428] [cursor=pointer]:
+                    - generic [ref=e429]: Buka menu
+                    - img
+                - generic [ref=e430]:
+                  - generic [ref=e431]:
+                    - generic [ref=e432]: "ID Karyawan:"
+                    - generic [ref=e433]: NON201
+                  - generic [ref=e434]:
+                    - generic [ref=e435]: "Departemen:"
+                    - generic [ref=e436]: Pusat Data dan Informasi
+                  - generic [ref=e437]:
+                    - generic [ref=e438]: "Tipe Karyawan:"
+                    - generic [ref=e439]: NON ASN
+                  - generic [ref=e440]:
+                    - generic [ref=e441]: "Pangkat ASN:"
+                    - generic [ref=e442]: "-"
+                  - generic [ref=e443]:
+                    - generic [ref=e444]: "Posisi:"
+                    - generic [ref=e445]: Staf
+                  - generic [ref=e446]:
+                    - generic [ref=e447]: "Status:"
+                    - generic [ref=e448]: ACTIVE
+            - generic [ref=e449]:
+              - generic [ref=e450]:
+                - paragraph [ref=e451]: Baris per halaman
+                - combobox [ref=e452] [cursor=pointer]:
+                  - generic: "9"
+                  - img [ref=e453]
+              - generic [ref=e455]:
+                - generic [ref=e456]: Halaman 1 dari 320
+                - generic [ref=e457]:
+                  - button "Halaman pertama" [disabled]:
+                    - generic: Halaman pertama
+                    - img
+                  - button "Halaman sebelumnya" [disabled]:
+                    - generic: Halaman sebelumnya
+                    - img
+                  - button "Halaman berikutnya" [ref=e458] [cursor=pointer]:
+                    - generic [ref=e459]: Halaman berikutnya
+                    - img
+                  - button "Halaman terakhir" [ref=e460] [cursor=pointer]:
+                    - generic [ref=e461]: Halaman terakhir
+                    - img
+    - contentinfo [ref=e462]:
+      - generic [ref=e463]:
+        - paragraph [ref=e464]: © 2026 BGN Head Office Support System. All rights reserved.
+        - generic [ref=e465]:
+          - link "Terms of Service" [ref=e466] [cursor=pointer]:
+            - /url: /terms-of-service
+          - link "Privacy Policy" [ref=e467] [cursor=pointer]:
+            - /url: /privacy-policy
+    - region "Notifications (F8)":
+      - list [ref=e469]:
+        - status [ref=e470]:
+          - generic [ref=e471]:
+            - img [ref=e473]
+            - generic [ref=e475]: "Lokasi Terdeteksi: Lat: -6.200000, Lng: 106.816666"
+          - button [ref=e476] [cursor=pointer]:
+            - img [ref=e477]
+    - generic [ref=e481]:
+      - button "Hide support label" [ref=e482] [cursor=pointer]:
+        - img "WhatsApp Support Label" [ref=e483]
+      - link "Contact WhatsApp support" [ref=e484] [cursor=pointer]:
+        - /url: https://wa.me/6281110008008
+        - img "WhatsApp Support" [ref=e485]
+```

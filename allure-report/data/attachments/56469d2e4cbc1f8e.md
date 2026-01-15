@@ -1,0 +1,277 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e7]:
+        - link "Portal SIPHR" [ref=e9] [cursor=pointer]:
+          - /url: /
+          - img [ref=e10]
+          - generic [ref=e13]: Portal SIPHR
+        - navigation "Breadcrumb" [ref=e14]:
+          - navigation "breadcrumb" [ref=e15]:
+            - list [ref=e16]:
+              - generic [ref=e17]:
+                - listitem [ref=e18]: /
+                - listitem [ref=e19]:
+                  - link "Navigasi ke Manajemen Tenaga Kerja" [ref=e20] [cursor=pointer]:
+                    - /url: /manajemen-tenaga-kerja
+                    - text: Manajemen Tenaga Kerja
+              - generic [ref=e21]:
+                - listitem [ref=e22]: /
+                - listitem [ref=e23]:
+                  - 'link "Halaman saat ini: Kehadiran" [disabled] [ref=e24]': Kehadiran
+      - generic [ref=e25]:
+        - link "BGN Logo" [ref=e26] [cursor=pointer]:
+          - /url: /
+          - img "BGN Logo" [ref=e27]
+        - generic [ref=e28]:
+          - button [ref=e29] [cursor=pointer]:
+            - img
+          - button "M" [ref=e30] [cursor=pointer]:
+            - generic [ref=e31]: M
+          - button "Toggle menu" [ref=e32] [cursor=pointer]:
+            - img
+            - generic [ref=e33]: Toggle menu
+    - generic [ref=e35]:
+      - generic [ref=e37]:
+        - heading "Manajemen Tenaga Kerja" [level=2] [ref=e39]
+        - button [ref=e40] [cursor=pointer]:
+          - img
+        - generic [ref=e41]:
+          - generic [ref=e42]:
+            - heading "Kantor Pusat" [level=3] [ref=e43]
+            - link "Database Karyawan" [ref=e46] [cursor=pointer]:
+              - /url: /manajemen-tenaga-kerja/employees
+              - img [ref=e47]
+              - text: Database Karyawan
+          - generic [ref=e50]:
+            - heading "Dapur" [level=3] [ref=e51]
+            - generic [ref=e52]:
+              - link "Staf Dapur" [ref=e54] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/kitchen-employees
+                - img [ref=e55]
+                - text: Staf Dapur
+              - link "Database Dapur" [ref=e58] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/kitchen
+                - img [ref=e59]
+                - text: Database Dapur
+              - link "Pengajuan PHL" [ref=e62] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/dapur/pengajuan-phl
+                - img [ref=e63]
+                - text: Pengajuan PHL
+              - link "Struktur Organisasi" [ref=e69] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/dapur/struktur-organisasi
+                - img [ref=e70]
+                - text: Struktur Organisasi
+          - generic [ref=e75]:
+            - heading "Manajemen" [level=3] [ref=e76]
+            - generic [ref=e77]:
+              - link "Verifikasi QR" [ref=e79] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/dapur/qr-verification
+                - img [ref=e80]
+                - text: Verifikasi QR
+              - link "Kehadiran" [ref=e87] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/attendance
+                - img [ref=e88]
+                - text: Kehadiran
+              - link "Kehadiran Online" [ref=e92] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/attendance/online
+                - img [ref=e93]
+                - text: Kehadiran Online
+              - link "Aktivitas Harian" [ref=e98] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/aktivitas-harian
+                - img [ref=e99]
+                - text: Aktivitas Harian
+              - link "Jadwal Pekerja" [ref=e103] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/attendance/shift
+                - img [ref=e104]
+                - text: Jadwal Pekerja
+              - link "Manajemen Cuti" [ref=e110] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/leave
+                - img [ref=e111]
+                - text: Manajemen Cuti
+          - generic [ref=e113]:
+            - heading "Penggajian" [level=3] [ref=e114]
+            - generic [ref=e115]:
+              - link "Laporan" [ref=e117] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/payroll
+                - img [ref=e118]
+                - text: Laporan
+              - link "Buat Laporan" [ref=e122] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/payroll/create
+                - img [ref=e123]
+                - text: Buat Laporan
+      - main [ref=e126]:
+        - generic [ref=e127]:
+          - generic [ref=e128]:
+            - heading "Kehadiran" [level=1] [ref=e129]
+            - paragraph [ref=e130]: Lacak kehadiran, cuti, lembur, dan jadwal shift
+          - generic [ref=e131]:
+            - generic [ref=e132]:
+              - generic [ref=e134]:
+                - img [ref=e135]
+                - textbox "Cari karyawan..." [ref=e138]: ARIS BAGUS SETIAWAN
+              - button "Export CSV" [ref=e139] [cursor=pointer]:
+                - img
+                - text: Export CSV
+            - generic [ref=e140]:
+              - button "15 Januari 2026 - 15 Januari 2026" [ref=e141] [cursor=pointer]:
+                - img
+                - text: 15 Januari 2026 - 15 Januari 2026
+              - combobox [expanded] [ref=e143] [cursor=pointer]:
+                - generic [ref=e144]: Semua Lokasi
+                - img
+              - combobox [ref=e146] [cursor=pointer]:
+                - generic [ref=e147]: Semua Departemen
+                - img
+              - combobox [ref=e148] [cursor=pointer]:
+                - generic: Hadir
+                - img [ref=e149]
+          - generic [ref=e151]:
+            - generic [ref=e152]:
+              - generic [ref=e154]: Pilih data untuk edit massal
+              - generic [ref=e155]:
+                - button "Edit Massal" [disabled]:
+                  - img
+                  - text: Edit Massal
+            - generic [ref=e156]:
+              - table [ref=e158]:
+                - rowgroup [ref=e159]:
+                  - row "Select all Karyawan Tanggal Waktu Masuk Waktu Keluar Status Departemen Lokasi Presensi Lembur Aksi" [ref=e160]:
+                    - columnheader "Select all" [ref=e161]:
+                      - checkbox "Select all" [ref=e162] [cursor=pointer]
+                    - columnheader "Karyawan" [ref=e163]:
+                      - generic [ref=e164]: Karyawan
+                    - columnheader "Tanggal" [ref=e165]:
+                      - generic [ref=e166]: Tanggal
+                    - columnheader "Waktu Masuk" [ref=e167]:
+                      - generic [ref=e168]: Waktu Masuk
+                    - columnheader "Waktu Keluar" [ref=e169]:
+                      - generic [ref=e170]: Waktu Keluar
+                    - columnheader "Status" [ref=e171]:
+                      - generic [ref=e172]: Status
+                    - columnheader "Departemen" [ref=e173]:
+                      - generic [ref=e174]: Departemen
+                    - columnheader "Lokasi" [ref=e175]:
+                      - generic [ref=e176]: Lokasi
+                    - columnheader "Presensi" [ref=e177]:
+                      - generic [ref=e178]: Presensi
+                    - columnheader "Lembur" [ref=e179]:
+                      - generic [ref=e180]: Lembur
+                    - columnheader "Aksi" [ref=e181]:
+                      - generic [ref=e182]: Aksi
+                - rowgroup [ref=e183]:
+                  - row "No results." [ref=e184]:
+                    - cell "No results." [ref=e185]
+              - generic [ref=e186]:
+                - generic [ref=e187]: 0 of 0 row(s) selected.
+                - generic [ref=e188]:
+                  - generic [ref=e189]:
+                    - paragraph [ref=e190]: Rows per page
+                    - combobox [ref=e191] [cursor=pointer]:
+                      - generic: "10"
+                      - img [ref=e192]
+                  - generic [ref=e194]: Page 1 of 0
+                  - generic [ref=e195]:
+                    - button "Go to first page" [disabled]:
+                      - generic: Go to first page
+                      - img
+                    - button "Go to previous page" [disabled]:
+                      - generic: Go to previous page
+                      - img
+                    - button "Go to next page" [disabled]:
+                      - generic: Go to next page
+                      - img
+                    - button "Go to last page" [disabled]:
+                      - generic: Go to last page
+                      - img
+    - contentinfo [ref=e196]:
+      - generic [ref=e197]:
+        - paragraph [ref=e198]: © 2026 BGN Head Office Support System. All rights reserved.
+        - generic [ref=e199]:
+          - link "Terms of Service" [ref=e200] [cursor=pointer]:
+            - /url: /terms-of-service
+          - link "Privacy Policy" [ref=e201] [cursor=pointer]:
+            - /url: /privacy-policy
+    - region "Notifications (F8)":
+      - list
+    - generic [ref=e202]:
+      - button "Hide support label" [ref=e203] [cursor=pointer]:
+        - img "WhatsApp Support Label" [ref=e204]
+      - link "Contact WhatsApp support" [ref=e205] [cursor=pointer]:
+        - /url: https://wa.me/6281110008008
+        - img "WhatsApp Support" [ref=e206]
+  - dialog [ref=e207]:
+    - generic [ref=e208]:
+      - generic [ref=e210]:
+        - img [ref=e211]
+        - combobox [expanded] [active] [ref=e214]
+      - listbox "Suggestions" [ref=e215]:
+        - generic [ref=e216]:
+          - option "Dapur Utama" [selected] [ref=e217]:
+            - img
+            - text: Dapur Utama
+          - option "Dapur Bersama" [ref=e218]:
+            - img
+            - text: Dapur Bersama
+          - option "test ini" [ref=e219]:
+            - img
+            - text: test ini
+          - option "ini adalah retest" [ref=e220]:
+            - img
+            - text: ini adalah retest
+          - option "DAPUR SMOKE TEST" [ref=e221]:
+            - img
+            - text: DAPUR SMOKE TEST
+          - option "TEST DAPUR SAYA" [ref=e222]:
+            - img
+            - text: TEST DAPUR SAYA
+          - option "TEST DAPUR SUNTER JAKUT" [ref=e223]:
+            - img
+            - text: TEST DAPUR SUNTER JAKUT
+          - option "DAPUR TESTING SUNTER" [ref=e224]:
+            - img
+            - text: DAPUR TESTING SUNTER
+          - option "test smoke test" [ref=e225]:
+            - img
+            - text: test smoke test
+          - option "SMOKE TEST DAPUR GG" [ref=e226]:
+            - img
+            - text: SMOKE TEST DAPUR GG
+          - option "Testing SIPGN 7 Januari" [ref=e227]:
+            - img
+            - text: Testing SIPGN 7 Januari
+          - option "testing dapur" [ref=e228]:
+            - img
+            - text: testing dapur
+          - option "SPPG BGN Pusat Kebon Sirih 03" [ref=e229]:
+            - img
+            - text: SPPG BGN Pusat Kebon Sirih 03
+          - option "SPPG BGN Pusat Kebon Sirih 02" [ref=e230]:
+            - img
+            - text: SPPG BGN Pusat Kebon Sirih 02
+          - option "SPPG BGN Pusat Kebon Sirih 01" [ref=e231]:
+            - img
+            - text: SPPG BGN Pusat Kebon Sirih 01
+          - option "SPPG BGN Pusat Kebon Sirih" [ref=e232]:
+            - img
+            - text: SPPG BGN Pusat Kebon Sirih
+          - option "SPPG PVR Peruri" [ref=e233]:
+            - img
+            - text: SPPG PVR Peruri
+          - option "Testing Dapur Baur" [ref=e234]:
+            - img
+            - text: Testing Dapur Baur
+          - option "DAPUR SUNTER JAYA JAYA" [ref=e235]:
+            - img
+            - text: DAPUR SUNTER JAYA JAYA
+          - option "SPPG GG JAKARTA UTARA SUNTER" [ref=e236]:
+            - img
+            - text: SPPG GG JAKARTA UTARA SUNTER
+          - option "testing mandatory" [ref=e237]:
+            - img
+            - text: testing mandatory
+```
