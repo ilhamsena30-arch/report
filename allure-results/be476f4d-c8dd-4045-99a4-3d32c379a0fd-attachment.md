@@ -1,0 +1,223 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e7]:
+        - link "Portal SIPHR" [ref=e9] [cursor=pointer]:
+          - /url: /
+          - img [ref=e10]
+          - generic [ref=e13]: Portal SIPHR
+        - navigation "Breadcrumb" [ref=e14]:
+          - navigation "breadcrumb" [ref=e15]:
+            - list [ref=e16]:
+              - generic [ref=e17]:
+                - listitem [ref=e18]: /
+                - listitem [ref=e19]:
+                  - link "Navigasi ke Manajemen Tenaga Kerja" [ref=e20] [cursor=pointer]:
+                    - /url: /manajemen-tenaga-kerja
+                    - text: Manajemen Tenaga Kerja
+              - generic [ref=e21]:
+                - listitem [ref=e22]: /
+                - listitem [ref=e23]:
+                  - link "Navigasi ke Database Karyawan" [ref=e24] [cursor=pointer]:
+                    - /url: /manajemen-tenaga-kerja/employees
+                    - text: Database Karyawan
+              - generic [ref=e25]:
+                - listitem [ref=e26]: /
+                - listitem [ref=e27]:
+                  - 'link "Halaman saat ini: Detail" [disabled] [ref=e28]': Detail
+      - generic [ref=e29]:
+        - link "BGN Logo" [ref=e30] [cursor=pointer]:
+          - /url: /
+          - img "BGN Logo" [ref=e31]
+        - generic [ref=e32]:
+          - button [ref=e33] [cursor=pointer]:
+            - img
+          - button "M" [ref=e34] [cursor=pointer]:
+            - generic [ref=e35]: M
+          - button "Toggle menu" [ref=e36] [cursor=pointer]:
+            - img
+            - generic [ref=e37]: Toggle menu
+    - generic [ref=e39]:
+      - generic [ref=e41]:
+        - heading "Manajemen Tenaga Kerja" [level=2] [ref=e43]
+        - button [ref=e44] [cursor=pointer]:
+          - img
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - heading "Kantor Pusat" [level=3] [ref=e47]
+            - link "Database Karyawan" [ref=e50] [cursor=pointer]:
+              - /url: /manajemen-tenaga-kerja/employees
+              - img [ref=e51]
+              - text: Database Karyawan
+          - generic [ref=e54]:
+            - heading "SPPG" [level=3] [ref=e55]
+            - generic [ref=e56]:
+              - link "Staf SPPG" [ref=e58] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/kitchen-employees
+                - img [ref=e59]
+                - text: Staf SPPG
+              - link "Database SPPG" [ref=e62] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/kitchen
+                - img [ref=e63]
+                - text: Database SPPG
+          - generic [ref=e65]:
+            - heading "Manajemen" [level=3] [ref=e66]
+            - generic [ref=e67]:
+              - link "Kehadiran" [ref=e69] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/attendance
+                - img [ref=e70]
+                - text: Kehadiran
+              - link "Kehadiran Online" [ref=e74] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/attendance/online
+                - img [ref=e75]
+                - text: Kehadiran Online
+              - link "Aktivitas Harian" [ref=e80] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/aktivitas-harian
+                - img [ref=e81]
+                - text: Aktivitas Harian
+              - link "Jadwal Pekerja" [ref=e85] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/attendance/shift
+                - img [ref=e86]
+                - text: Jadwal Pekerja
+              - link "Manajemen Cuti" [ref=e92] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/leave
+                - img [ref=e93]
+                - text: Manajemen Cuti
+          - generic [ref=e95]:
+            - heading "Penggajian" [level=3] [ref=e96]
+            - generic [ref=e97]:
+              - link "Laporan" [ref=e99] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/payroll
+                - img [ref=e100]
+                - text: Laporan
+              - link "Buat Laporan" [ref=e104] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/payroll/create
+                - img [ref=e105]
+                - text: Buat Laporan
+      - main [ref=e108]:
+        - generic [ref=e109]:
+          - generic [ref=e110]:
+            - link "Kembali" [ref=e111] [cursor=pointer]:
+              - /url: /manajemen-tenaga-kerja/employees
+              - button "Kembali" [ref=e112]:
+                - img
+                - text: Kembali
+            - generic [ref=e113]:
+              - link "Ubah" [ref=e114] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/employees/edit/d10493c9-aa3b-48eb-ae39-4472bee41461
+                - button "Ubah" [ref=e115]:
+                  - img
+                  - text: Ubah
+              - button "Hapus" [ref=e116] [cursor=pointer]:
+                - img
+                - text: Hapus
+          - generic [ref=e117]:
+            - generic [ref=e119]:
+              - generic [ref=e121]: R
+              - heading "Randal Schmitt DVM" [level=2] [ref=e122]
+              - paragraph [ref=e123]: Staf
+              - generic [ref=e125]: ACTIVE
+              - generic [ref=e126]:
+                - generic [ref=e127]:
+                  - generic [ref=e128]: ID Pegawai
+                  - generic [ref=e129]: NON4201
+                - generic [ref=e130]:
+                  - generic [ref=e131]: Departemen
+                  - generic [ref=e132]: Kepala Badan
+                - generic [ref=e133]:
+                  - generic [ref=e134]: Tipe Kepegawaian
+                  - generic [ref=e135]: "-"
+                - generic [ref=e136]:
+                  - generic [ref=e137]: Status Kepegawaian
+                  - generic [ref=e138]: NON ASN
+                - generic [ref=e139]:
+                  - generic [ref=e140]: Level Kepegawaian
+                  - generic [ref=e141]: "-"
+                - generic [ref=e143]: Tanggal Bergabung
+            - generic [ref=e144]:
+              - heading "Informasi Pegawai" [level=3] [ref=e146]
+              - generic [ref=e148]:
+                - tablist [ref=e149]:
+                  - tab "Data Pribadi" [selected] [ref=e150] [cursor=pointer]
+                  - tab "Pekerjaan" [ref=e151] [cursor=pointer]
+                - tabpanel "Data Pribadi" [ref=e152]:
+                  - heading "Data Diri" [level=3] [ref=e154]
+                  - generic [ref=e155]:
+                    - generic [ref=e156]:
+                      - generic [ref=e157]:
+                        - text: Email
+                        - generic [ref=e158]: Jeffry_176936260371@test.com
+                      - generic [ref=e159]:
+                        - text: Nama Lengkap
+                        - generic [ref=e160]: Randal Schmitt DVM
+                    - generic [ref=e161]:
+                      - generic [ref=e162]:
+                        - text: NIK
+                        - generic [ref=e163]: "-"
+                        - paragraph [ref=e164]: Nomor Induk Kependudukan sesuai KTP
+                      - generic [ref=e165]:
+                        - text: NIP
+                        - generic [ref=e166]: "-"
+                        - paragraph [ref=e167]: NIP atau ID yang digunakan pada perangkat Kehadiran di SPPG
+                    - generic [ref=e168]:
+                      - generic [ref=e169]:
+                        - text: Tempat Lahir (Kota)
+                        - generic [ref=e170]: "-"
+                      - generic [ref=e171]:
+                        - text: Tanggal Lahir
+                        - generic [ref=e172]: "-"
+                      - generic [ref=e173]:
+                        - text: Jenis Kelamin
+                        - generic [ref=e174]: "-"
+                      - generic [ref=e175]:
+                        - text: Status Perkawinan
+                        - generic [ref=e176]: "-"
+                      - generic [ref=e177]:
+                        - text: Agama
+                        - generic [ref=e178]: "-"
+                    - generic [ref=e180]:
+                      - text: Nomor Telepon/HP
+                      - generic [ref=e181]: "+6286120910555"
+                    - generic [ref=e182]:
+                      - generic [ref=e183]:
+                        - text: Alamat Domisili Lengkap
+                        - generic [ref=e184]: "-"
+                        - paragraph [ref=e185]: Alamat sesuai KTP
+                      - generic [ref=e186]:
+                        - text: Domisili Saat ini
+                        - generic [ref=e187]: "-"
+                        - paragraph [ref=e188]: Lokasi tempat tinggal aktual saat ini, bisa berbeda dengan alamat KTP.
+                    - generic [ref=e189]:
+                      - generic [ref=e190]:
+                        - text: NPWP (Opsional)
+                        - generic [ref=e191]: "-"
+                      - generic [ref=e192]:
+                        - text: BPJS Kesehatan (Opsional)
+                        - generic [ref=e193]: "-"
+                      - generic [ref=e194]:
+                        - text: BPJS Ketenagakerjaan (Opsional)
+                        - generic [ref=e195]: "-"
+                  - generic [ref=e197]:
+                    - paragraph [ref=e198]: Kontak Darurat
+                    - paragraph [ref=e199]: "-"
+    - contentinfo [ref=e200]:
+      - generic [ref=e201]:
+        - paragraph [ref=e202]: © 2026 BGN Head Office Support System. All rights reserved.
+        - generic [ref=e203]:
+          - link "Terms of Service" [ref=e204] [cursor=pointer]:
+            - /url: /terms-of-service
+          - link "Privacy Policy" [ref=e205] [cursor=pointer]:
+            - /url: /privacy-policy
+    - region "Notifications (F8)":
+      - list
+    - generic [ref=e206]:
+      - button "Hide support label" [ref=e207] [cursor=pointer]:
+        - img "WhatsApp Support Label" [ref=e208]
+      - link "Contact WhatsApp support" [ref=e209] [cursor=pointer]:
+        - /url: https://wa.me/6281110008008
+        - img "WhatsApp Support" [ref=e210]
+```

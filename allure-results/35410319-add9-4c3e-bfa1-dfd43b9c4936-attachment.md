@@ -1,0 +1,473 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e7]:
+        - link "Portal SIPHR" [ref=e9] [cursor=pointer]:
+          - /url: /
+          - img [ref=e10]
+          - generic [ref=e13]: Portal SIPHR
+        - navigation "Breadcrumb" [ref=e14]:
+          - navigation "breadcrumb" [ref=e15]:
+            - list [ref=e16]:
+              - generic [ref=e17]:
+                - listitem [ref=e18]: /
+                - listitem [ref=e19]:
+                  - link "Navigasi ke Manajemen Tenaga Kerja" [ref=e20] [cursor=pointer]:
+                    - /url: /manajemen-tenaga-kerja
+                    - text: Manajemen Tenaga Kerja
+              - generic [ref=e21]:
+                - listitem [ref=e22]: /
+                - listitem [ref=e23]:
+                  - link "Navigasi ke Manajemen Cuti" [ref=e24] [cursor=pointer]:
+                    - /url: /manajemen-tenaga-kerja/leave
+                    - text: Manajemen Cuti
+              - generic [ref=e25]:
+                - listitem [ref=e26]: /
+                - listitem [ref=e27]:
+                  - 'link "Halaman saat ini: Riwayat Cuti" [disabled] [ref=e28]': Riwayat Cuti
+      - generic [ref=e29]:
+        - link "BGN Logo" [ref=e30] [cursor=pointer]:
+          - /url: /
+          - img "BGN Logo" [ref=e31]
+        - generic [ref=e32]:
+          - button [ref=e33] [cursor=pointer]:
+            - img
+          - button "M" [ref=e34] [cursor=pointer]:
+            - generic [ref=e35]: M
+          - button "Toggle menu" [ref=e36] [cursor=pointer]:
+            - img
+            - generic [ref=e37]: Toggle menu
+    - generic [ref=e39]:
+      - generic [ref=e41]:
+        - heading "Manajemen Tenaga Kerja" [level=2] [ref=e43]
+        - button [ref=e44] [cursor=pointer]:
+          - img
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - heading "Kantor Pusat" [level=3] [ref=e47]
+            - link "Database Karyawan" [ref=e50] [cursor=pointer]:
+              - /url: /manajemen-tenaga-kerja/employees
+              - img [ref=e51]
+              - text: Database Karyawan
+          - generic [ref=e54]:
+            - heading "SPPG" [level=3] [ref=e55]
+            - generic [ref=e56]:
+              - link "Staf SPPG" [ref=e58] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/kitchen-employees
+                - img [ref=e59]
+                - text: Staf SPPG
+              - link "Database SPPG" [ref=e62] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/kitchen
+                - img [ref=e63]
+                - text: Database SPPG
+          - generic [ref=e65]:
+            - heading "Manajemen" [level=3] [ref=e66]
+            - generic [ref=e67]:
+              - link "Kehadiran" [ref=e69] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/attendance
+                - img [ref=e70]
+                - text: Kehadiran
+              - link "Kehadiran Online" [ref=e74] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/attendance/online
+                - img [ref=e75]
+                - text: Kehadiran Online
+              - link "Aktivitas Harian" [ref=e80] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/aktivitas-harian
+                - img [ref=e81]
+                - text: Aktivitas Harian
+              - link "Jadwal Pekerja" [ref=e85] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/attendance/shift
+                - img [ref=e86]
+                - text: Jadwal Pekerja
+              - link "Manajemen Cuti" [ref=e92] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/leave
+                - img [ref=e93]
+                - text: Manajemen Cuti
+          - generic [ref=e95]:
+            - heading "Penggajian" [level=3] [ref=e96]
+            - generic [ref=e97]:
+              - link "Laporan" [ref=e99] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/payroll
+                - img [ref=e100]
+                - text: Laporan
+              - link "Buat Laporan" [ref=e104] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/payroll/create
+                - img [ref=e105]
+                - text: Buat Laporan
+      - main [ref=e108]:
+        - generic [ref=e109]:
+          - button "Kembali" [ref=e110] [cursor=pointer]:
+            - img
+            - text: Kembali
+          - generic [ref=e111]:
+            - heading "Riwayat Cuti" [level=1] [ref=e112]
+            - paragraph [ref=e113]: Lihat riwayat dan status pengajuan cuti Anda
+          - generic [ref=e114]:
+            - generic [ref=e115]:
+              - generic [ref=e116]:
+                - heading "Total Pengajuan" [level=3] [ref=e117]
+                - img [ref=e118]
+              - generic [ref=e122]: "48"
+            - generic [ref=e123]:
+              - generic [ref=e124]:
+                - heading "Disetujui" [level=3] [ref=e125]
+                - img [ref=e126]
+              - generic [ref=e129]:
+                - generic [ref=e130]: "9"
+                - paragraph [ref=e131]: 14 hari disetujui
+            - generic [ref=e132]:
+              - generic [ref=e133]:
+                - heading "Menunggu" [level=3] [ref=e134]
+                - img [ref=e135]
+              - generic [ref=e139]: "0"
+            - generic [ref=e140]:
+              - generic [ref=e141]:
+                - heading "Ditolak" [level=3] [ref=e142]
+                - img [ref=e143]
+              - generic [ref=e148]: "6"
+            - generic [ref=e149]:
+              - generic [ref=e150]:
+                - heading "Dibatalkan" [level=3] [ref=e151]
+                - img [ref=e152]
+              - generic [ref=e155]: "33"
+          - generic [ref=e156]:
+            - generic [ref=e157]:
+              - heading "Filter dan Pencarian" [level=3] [ref=e158]
+              - paragraph [ref=e159]: Filter riwayat cuti berdasarkan status dan pencarian
+            - generic [ref=e161]:
+              - generic [ref=e164]:
+                - img [ref=e165]
+                - textbox "Cari berdasarkan jenis cuti, alasan, atau nama..." [ref=e168]
+              - combobox [ref=e170] [cursor=pointer]:
+                - generic: Semua Jenis Cuti
+                - img [ref=e171]
+              - combobox [ref=e174] [cursor=pointer]:
+                - generic: Semua Status
+                - img [ref=e175]
+          - generic [ref=e177]:
+            - generic [ref=e178]:
+              - heading "Riwayat Pengajuan Cuti" [level=3] [ref=e179]
+              - paragraph [ref=e180]: Daftar lengkap pengajuan cuti Anda
+            - generic [ref=e181]:
+              - table [ref=e182]:
+                - rowgroup [ref=e183]:
+                  - row "Jenis Cuti Tanggal Durasi Alasan Atasan Langsung Status Tanggal Pengajuan" [ref=e184]:
+                    - columnheader "Jenis Cuti" [ref=e185]
+                    - columnheader "Tanggal" [ref=e186]
+                    - columnheader "Durasi" [ref=e187]
+                    - columnheader "Alasan" [ref=e188]
+                    - columnheader "Atasan Langsung" [ref=e189]
+                    - columnheader "Status" [ref=e190]
+                    - columnheader "Tanggal Pengajuan" [ref=e191]
+                - rowgroup [ref=e192]:
+                  - row "Cuti Sakit 28 Jan 2026 s/d 28 Jan 2026 1 hari asdfadsfadsfefe BGN Super Admin nooroctaviananwar1222@gmail.com Dibatalkan 25 Jan 2026" [ref=e193]:
+                    - cell "Cuti Sakit" [ref=e194]:
+                      - generic [ref=e195]:
+                        - img [ref=e196]
+                        - generic [ref=e198]: Cuti Sakit
+                    - cell "28 Jan 2026 s/d 28 Jan 2026" [ref=e199]:
+                      - generic [ref=e200]:
+                        - generic [ref=e201]: 28 Jan 2026
+                        - generic [ref=e202]: s/d 28 Jan 2026
+                    - cell "1 hari" [ref=e203]:
+                      - generic [ref=e204]: 1 hari
+                    - cell "asdfadsfadsfefe" [ref=e205]:
+                      - generic "asdfadsfadsfefe" [ref=e206]
+                    - cell "BGN Super Admin nooroctaviananwar1222@gmail.com" [ref=e207]:
+                      - generic [ref=e209]:
+                        - generic [ref=e210]: BGN Super Admin
+                        - generic [ref=e211]: nooroctaviananwar1222@gmail.com
+                    - cell "Dibatalkan" [ref=e212]:
+                      - generic [ref=e213]:
+                        - img [ref=e214]
+                        - generic [ref=e218]: Dibatalkan
+                    - cell "25 Jan 2026" [ref=e219]:
+                      - generic [ref=e220]: 25 Jan 2026
+                    - cell [ref=e221]:
+                      - link "Lihat Detail" [ref=e223] [cursor=pointer]:
+                        - /url: /manajemen-tenaga-kerja/leave/riwayat-cuti/72dbc2f2-67a4-407d-88bf-6945272b98f8
+                        - img [ref=e224]
+                  - row "Cuti Sakit 11 Feb 2026 s/d 11 Feb 2026 1 hari uiadgiuiasdf BGN Super Admin nooroctaviananwar1222@gmail.com Dibatalkan 25 Jan 2026" [ref=e227]:
+                    - cell "Cuti Sakit" [ref=e228]:
+                      - generic [ref=e229]:
+                        - img [ref=e230]
+                        - generic [ref=e232]: Cuti Sakit
+                    - cell "11 Feb 2026 s/d 11 Feb 2026" [ref=e233]:
+                      - generic [ref=e234]:
+                        - generic [ref=e235]: 11 Feb 2026
+                        - generic [ref=e236]: s/d 11 Feb 2026
+                    - cell "1 hari" [ref=e237]:
+                      - generic [ref=e238]: 1 hari
+                    - cell "uiadgiuiasdf" [ref=e239]:
+                      - generic "uiadgiuiasdf" [ref=e240]
+                    - cell "BGN Super Admin nooroctaviananwar1222@gmail.com" [ref=e241]:
+                      - generic [ref=e243]:
+                        - generic [ref=e244]: BGN Super Admin
+                        - generic [ref=e245]: nooroctaviananwar1222@gmail.com
+                    - cell "Dibatalkan" [ref=e246]:
+                      - generic [ref=e247]:
+                        - img [ref=e248]
+                        - generic [ref=e252]: Dibatalkan
+                    - cell "25 Jan 2026" [ref=e253]:
+                      - generic [ref=e254]: 25 Jan 2026
+                    - cell [ref=e255]:
+                      - link "Lihat Detail" [ref=e257] [cursor=pointer]:
+                        - /url: /manajemen-tenaga-kerja/leave/riwayat-cuti/18b0f92f-2916-46f6-856b-3d7e28a0c78a
+                        - img [ref=e258]
+                  - row "Cuti Melahirkan 17 Mar 2026 s/d 01 Apr 2026 7 hari Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, BGN Super Admin nooroctaviananwar1222@gmail.com Ditolak 15 Jan 2026" [ref=e261]:
+                    - cell "Cuti Melahirkan" [ref=e262]:
+                      - generic [ref=e263]:
+                        - img [ref=e264]
+                        - generic [ref=e266]: Cuti Melahirkan
+                    - cell "17 Mar 2026 s/d 01 Apr 2026" [ref=e267]:
+                      - generic [ref=e268]:
+                        - generic [ref=e269]: 17 Mar 2026
+                        - generic [ref=e270]: s/d 01 Apr 2026
+                    - cell "7 hari" [ref=e271]:
+                      - generic [ref=e272]: 7 hari
+                    - cell "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis," [ref=e273]:
+                      - generic "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis," [ref=e274]
+                    - cell "BGN Super Admin nooroctaviananwar1222@gmail.com" [ref=e275]:
+                      - generic [ref=e277]:
+                        - generic [ref=e278]: BGN Super Admin
+                        - generic [ref=e279]: nooroctaviananwar1222@gmail.com
+                    - cell "Ditolak" [ref=e280]:
+                      - generic [ref=e281]:
+                        - img [ref=e282]
+                        - generic [ref=e286]: Ditolak
+                    - cell "15 Jan 2026" [ref=e287]:
+                      - generic [ref=e288]: 15 Jan 2026
+                    - cell [ref=e289]:
+                      - link "Lihat Detail" [ref=e291] [cursor=pointer]:
+                        - /url: /manajemen-tenaga-kerja/leave/riwayat-cuti/6100c328-75eb-437a-8611-de7a2fb98763
+                        - img [ref=e292]
+                  - row "Cuti Melahirkan 12 Feb 2026 s/d 13 Feb 2026 2 hari asydufgasdyfgaisdgfiadsgiasdgoiagsdofugasdfiouygasdbfgasiudygbradsuifgasuidyfgbuisadgfuiadsgfuidaysgasydufgasdyfgaisdgfiadsgiasdgoiagsdofugasdfiouygasdbfgasiudygbradsuifgasuidyfgbuisadgfuiadsgfuidaysgasydufgasdyfgaisdgfiadsgiasdgoiagsdofugasdfiouygasdbfga BGN Super Admin nooroctaviananwar1222@gmail.com Disetujui 15 Jan 2026" [ref=e295]:
+                    - cell "Cuti Melahirkan" [ref=e296]:
+                      - generic [ref=e297]:
+                        - img [ref=e298]
+                        - generic [ref=e300]: Cuti Melahirkan
+                    - cell "12 Feb 2026 s/d 13 Feb 2026" [ref=e301]:
+                      - generic [ref=e302]:
+                        - generic [ref=e303]: 12 Feb 2026
+                        - generic [ref=e304]: s/d 13 Feb 2026
+                    - cell "2 hari" [ref=e305]:
+                      - generic [ref=e306]: 2 hari
+                    - cell "asydufgasdyfgaisdgfiadsgiasdgoiagsdofugasdfiouygasdbfgasiudygbradsuifgasuidyfgbuisadgfuiadsgfuidaysgasydufgasdyfgaisdgfiadsgiasdgoiagsdofugasdfiouygasdbfgasiudygbradsuifgasuidyfgbuisadgfuiadsgfuidaysgasydufgasdyfgaisdgfiadsgiasdgoiagsdofugasdfiouygasdbfga" [ref=e307]:
+                      - generic "asydufgasdyfgaisdgfiadsgiasdgoiagsdofugasdfiouygasdbfgasiudygbradsuifgasuidyfgbuisadgfuiadsgfuidaysgasydufgasdyfgaisdgfiadsgiasdgoiagsdofugasdfiouygasdbfgasiudygbradsuifgasuidyfgbuisadgfuiadsgfuidaysgasydufgasdyfgaisdgfiadsgiasdgoiagsdofugasdfiouygasdbfga" [ref=e308]
+                    - cell "BGN Super Admin nooroctaviananwar1222@gmail.com" [ref=e309]:
+                      - generic [ref=e311]:
+                        - generic [ref=e312]: BGN Super Admin
+                        - generic [ref=e313]: nooroctaviananwar1222@gmail.com
+                    - cell "Disetujui" [ref=e314]:
+                      - generic [ref=e315]:
+                        - img [ref=e316]
+                        - generic [ref=e319]: Disetujui
+                    - cell "15 Jan 2026" [ref=e320]:
+                      - generic [ref=e321]: 15 Jan 2026
+                    - cell [ref=e322]:
+                      - link "Lihat Detail" [ref=e324] [cursor=pointer]:
+                        - /url: /manajemen-tenaga-kerja/leave/riwayat-cuti/1e8b9e36-cc9c-4b15-a0b9-40a108fceefd
+                        - img [ref=e325]
+                  - row "Cuti Darurat 29 Jan 2026 s/d 29 Jan 2026 1 hari cuti darurat BGN Super Admin nooroctaviananwar1222@gmail.com Ditolak 15 Jan 2026" [ref=e328]:
+                    - cell "Cuti Darurat" [ref=e329]:
+                      - generic [ref=e330]:
+                        - img [ref=e331]
+                        - generic [ref=e333]: Cuti Darurat
+                    - cell "29 Jan 2026 s/d 29 Jan 2026" [ref=e334]:
+                      - generic [ref=e335]:
+                        - generic [ref=e336]: 29 Jan 2026
+                        - generic [ref=e337]: s/d 29 Jan 2026
+                    - cell "1 hari" [ref=e338]:
+                      - generic [ref=e339]: 1 hari
+                    - cell "cuti darurat" [ref=e340]:
+                      - generic "cuti darurat" [ref=e341]
+                    - cell "BGN Super Admin nooroctaviananwar1222@gmail.com" [ref=e342]:
+                      - generic [ref=e344]:
+                        - generic [ref=e345]: BGN Super Admin
+                        - generic [ref=e346]: nooroctaviananwar1222@gmail.com
+                    - cell "Ditolak" [ref=e347]:
+                      - generic [ref=e348]:
+                        - img [ref=e349]
+                        - generic [ref=e353]: Ditolak
+                    - cell "15 Jan 2026" [ref=e354]:
+                      - generic [ref=e355]: 15 Jan 2026
+                    - cell [ref=e356]:
+                      - link "Lihat Detail" [ref=e358] [cursor=pointer]:
+                        - /url: /manajemen-tenaga-kerja/leave/riwayat-cuti/5a1f09b7-796d-4da2-877f-983c615c3521
+                        - img [ref=e359]
+                  - row "Cuti Melahirkan 26 Jan 2026 s/d 26 Jan 2026 1 hari cuti melahirkan BGN Super Admin nooroctaviananwar1222@gmail.com Disetujui 15 Jan 2026" [ref=e362]:
+                    - cell "Cuti Melahirkan" [ref=e363]:
+                      - generic [ref=e364]:
+                        - img [ref=e365]
+                        - generic [ref=e367]: Cuti Melahirkan
+                    - cell "26 Jan 2026 s/d 26 Jan 2026" [ref=e368]:
+                      - generic [ref=e369]:
+                        - generic [ref=e370]: 26 Jan 2026
+                        - generic [ref=e371]: s/d 26 Jan 2026
+                    - cell "1 hari" [ref=e372]:
+                      - generic [ref=e373]: 1 hari
+                    - cell "cuti melahirkan" [ref=e374]:
+                      - generic "cuti melahirkan" [ref=e375]
+                    - cell "BGN Super Admin nooroctaviananwar1222@gmail.com" [ref=e376]:
+                      - generic [ref=e378]:
+                        - generic [ref=e379]: BGN Super Admin
+                        - generic [ref=e380]: nooroctaviananwar1222@gmail.com
+                    - cell "Disetujui" [ref=e381]:
+                      - generic [ref=e382]:
+                        - img [ref=e383]
+                        - generic [ref=e386]: Disetujui
+                    - cell "15 Jan 2026" [ref=e387]:
+                      - generic [ref=e388]: 15 Jan 2026
+                    - cell [ref=e389]:
+                      - link "Lihat Detail" [ref=e391] [cursor=pointer]:
+                        - /url: /manajemen-tenaga-kerja/leave/riwayat-cuti/5dfab030-70b0-4c38-9724-4ecc8e259bb3
+                        - img [ref=e392]
+                  - row "Cuti Khusus 20 Jan 2026 s/d 20 Jan 2026 1 hari cuti khusus BGN Super Admin nooroctaviananwar1222@gmail.com Ditolak 15 Jan 2026" [ref=e395]:
+                    - cell "Cuti Khusus" [ref=e396]:
+                      - generic [ref=e397]:
+                        - img [ref=e398]
+                        - generic [ref=e400]: Cuti Khusus
+                    - cell "20 Jan 2026 s/d 20 Jan 2026" [ref=e401]:
+                      - generic [ref=e402]:
+                        - generic [ref=e403]: 20 Jan 2026
+                        - generic [ref=e404]: s/d 20 Jan 2026
+                    - cell "1 hari" [ref=e405]:
+                      - generic [ref=e406]: 1 hari
+                    - cell "cuti khusus" [ref=e407]:
+                      - generic "cuti khusus" [ref=e408]
+                    - cell "BGN Super Admin nooroctaviananwar1222@gmail.com" [ref=e409]:
+                      - generic [ref=e411]:
+                        - generic [ref=e412]: BGN Super Admin
+                        - generic [ref=e413]: nooroctaviananwar1222@gmail.com
+                    - cell "Ditolak" [ref=e414]:
+                      - generic [ref=e415]:
+                        - img [ref=e416]
+                        - generic [ref=e420]: Ditolak
+                    - cell "15 Jan 2026" [ref=e421]:
+                      - generic [ref=e422]: 15 Jan 2026
+                    - cell [ref=e423]:
+                      - link "Lihat Detail" [ref=e425] [cursor=pointer]:
+                        - /url: /manajemen-tenaga-kerja/leave/riwayat-cuti/a1cc4b4e-7745-41a7-8e43-2137d524188d
+                        - img [ref=e426]
+                  - row "Cuti Sakit 19 Jan 2026 s/d 19 Jan 2026 1 hari cuti tahunan BGN Super Admin nooroctaviananwar1222@gmail.com Disetujui 15 Jan 2026" [ref=e429]:
+                    - cell "Cuti Sakit" [ref=e430]:
+                      - generic [ref=e431]:
+                        - img [ref=e432]
+                        - generic [ref=e434]: Cuti Sakit
+                    - cell "19 Jan 2026 s/d 19 Jan 2026" [ref=e435]:
+                      - generic [ref=e436]:
+                        - generic [ref=e437]: 19 Jan 2026
+                        - generic [ref=e438]: s/d 19 Jan 2026
+                    - cell "1 hari" [ref=e439]:
+                      - generic [ref=e440]: 1 hari
+                    - cell "cuti tahunan" [ref=e441]:
+                      - generic "cuti tahunan" [ref=e442]
+                    - cell "BGN Super Admin nooroctaviananwar1222@gmail.com" [ref=e443]:
+                      - generic [ref=e445]:
+                        - generic [ref=e446]: BGN Super Admin
+                        - generic [ref=e447]: nooroctaviananwar1222@gmail.com
+                    - cell "Disetujui" [ref=e448]:
+                      - generic [ref=e449]:
+                        - img [ref=e450]
+                        - generic [ref=e453]: Disetujui
+                    - cell "15 Jan 2026" [ref=e454]:
+                      - generic [ref=e455]: 15 Jan 2026
+                    - cell [ref=e456]:
+                      - link "Lihat Detail" [ref=e458] [cursor=pointer]:
+                        - /url: /manajemen-tenaga-kerja/leave/riwayat-cuti/9a9bafda-95ef-40fa-9a8e-842be4fd969c
+                        - img [ref=e459]
+                  - row "Cuti Darurat 02 Feb 2026 s/d 02 Feb 2026 1 hari asdasdasdasddas BGN Super Admin nooroctaviananwar1222@gmail.com Disetujui 14 Jan 2026" [ref=e462]:
+                    - cell "Cuti Darurat" [ref=e463]:
+                      - generic [ref=e464]:
+                        - img [ref=e465]
+                        - generic [ref=e467]: Cuti Darurat
+                    - cell "02 Feb 2026 s/d 02 Feb 2026" [ref=e468]:
+                      - generic [ref=e469]:
+                        - generic [ref=e470]: 02 Feb 2026
+                        - generic [ref=e471]: s/d 02 Feb 2026
+                    - cell "1 hari" [ref=e472]:
+                      - generic [ref=e473]: 1 hari
+                    - cell "asdasdasdasddas" [ref=e474]:
+                      - generic "asdasdasdasddas" [ref=e475]
+                    - cell "BGN Super Admin nooroctaviananwar1222@gmail.com" [ref=e476]:
+                      - generic [ref=e478]:
+                        - generic [ref=e479]: BGN Super Admin
+                        - generic [ref=e480]: nooroctaviananwar1222@gmail.com
+                    - cell "Disetujui" [ref=e481]:
+                      - generic [ref=e482]:
+                        - img [ref=e483]
+                        - generic [ref=e486]: Disetujui
+                    - cell "14 Jan 2026" [ref=e487]:
+                      - generic [ref=e488]: 14 Jan 2026
+                    - cell [ref=e489]:
+                      - link "Lihat Detail" [ref=e491] [cursor=pointer]:
+                        - /url: /manajemen-tenaga-kerja/leave/riwayat-cuti/15559d3a-d11f-4e91-b235-c18b84087770
+                        - img [ref=e492]
+                  - row "Cuti Darurat 26 Jan 2026 s/d 26 Jan 2026 1 hari asdsdasddas BGN Super Admin nooroctaviananwar1222@gmail.com Dibatalkan 14 Jan 2026" [ref=e495]:
+                    - cell "Cuti Darurat" [ref=e496]:
+                      - generic [ref=e497]:
+                        - img [ref=e498]
+                        - generic [ref=e500]: Cuti Darurat
+                    - cell "26 Jan 2026 s/d 26 Jan 2026" [ref=e501]:
+                      - generic [ref=e502]:
+                        - generic [ref=e503]: 26 Jan 2026
+                        - generic [ref=e504]: s/d 26 Jan 2026
+                    - cell "1 hari" [ref=e505]:
+                      - generic [ref=e506]: 1 hari
+                    - cell "asdsdasddas" [ref=e507]:
+                      - generic "asdsdasddas" [ref=e508]
+                    - cell "BGN Super Admin nooroctaviananwar1222@gmail.com" [ref=e509]:
+                      - generic [ref=e511]:
+                        - generic [ref=e512]: BGN Super Admin
+                        - generic [ref=e513]: nooroctaviananwar1222@gmail.com
+                    - cell "Dibatalkan" [ref=e514]:
+                      - generic [ref=e515]:
+                        - img [ref=e516]
+                        - generic [ref=e520]: Dibatalkan
+                    - cell "14 Jan 2026" [ref=e521]:
+                      - generic [ref=e522]: 14 Jan 2026
+                    - cell [ref=e523]:
+                      - link "Lihat Detail" [ref=e525] [cursor=pointer]:
+                        - /url: /manajemen-tenaga-kerja/leave/riwayat-cuti/28da5db4-e4f5-4016-beae-b0ecd2aeaa72
+                        - img [ref=e526]
+              - navigation "pagination" [ref=e530]:
+                - list [ref=e531]:
+                  - listitem [ref=e532]:
+                    - generic "Go to previous page":
+                      - img
+                      - generic: Previous
+                  - listitem [ref=e533]:
+                    - generic [ref=e534] [cursor=pointer]: "1"
+                  - listitem [ref=e535]:
+                    - generic [ref=e536] [cursor=pointer]: "2"
+                  - listitem [ref=e537]:
+                    - generic [ref=e538] [cursor=pointer]: "3"
+                  - listitem [ref=e539]:
+                    - generic [ref=e540] [cursor=pointer]: "4"
+                  - listitem [ref=e541]:
+                    - generic [ref=e542] [cursor=pointer]: "5"
+                  - listitem [ref=e543]:
+                    - generic "Go to next page" [ref=e544] [cursor=pointer]:
+                      - generic [ref=e545]: Next
+                      - img
+    - contentinfo [ref=e546]:
+      - generic [ref=e547]:
+        - paragraph [ref=e548]: © 2026 BGN Head Office Support System. All rights reserved.
+        - generic [ref=e549]:
+          - link "Terms of Service" [ref=e550] [cursor=pointer]:
+            - /url: /terms-of-service
+          - link "Privacy Policy" [ref=e551] [cursor=pointer]:
+            - /url: /privacy-policy
+    - region "Notifications (F8)":
+      - list
+    - generic [ref=e552]:
+      - button "Hide support label" [ref=e553] [cursor=pointer]:
+        - img "WhatsApp Support Label" [ref=e554]
+      - link "Contact WhatsApp support" [ref=e555] [cursor=pointer]:
+        - /url: https://wa.me/6281110008008
+        - img "WhatsApp Support" [ref=e556]
+```

@@ -1,0 +1,466 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e7]:
+        - link "Portal SIPHR" [ref=e9] [cursor=pointer]:
+          - /url: /
+          - img [ref=e10]
+          - generic [ref=e13]: Portal SIPHR
+        - navigation "Breadcrumb" [ref=e14]:
+          - navigation "breadcrumb" [ref=e15]:
+            - list [ref=e16]:
+              - generic [ref=e17]:
+                - listitem [ref=e18]: /
+                - listitem [ref=e19]:
+                  - link "Navigasi ke Pelatihan & Karir" [ref=e20] [cursor=pointer]:
+                    - /url: /lms
+                    - text: Pelatihan & Karir
+              - generic [ref=e21]:
+                - listitem [ref=e22]: /
+                - listitem [ref=e23]:
+                  - link "Navigasi ke Admin Dashboard" [ref=e24] [cursor=pointer]:
+                    - /url: /lms/admin
+                    - text: Admin Dashboard
+              - generic [ref=e25]:
+                - listitem [ref=e26]: /
+                - listitem [ref=e27]:
+                  - 'link "Halaman saat ini: Semua Modul" [disabled] [ref=e28]': Semua Modul
+      - generic [ref=e29]:
+        - link "BGN Logo" [ref=e30] [cursor=pointer]:
+          - /url: /
+          - img "BGN Logo" [ref=e31]
+        - generic [ref=e32]:
+          - button [ref=e33] [cursor=pointer]:
+            - img
+          - button "M" [ref=e34] [cursor=pointer]:
+            - generic [ref=e35]: M
+          - button "Toggle menu" [ref=e36] [cursor=pointer]:
+            - img
+            - generic [ref=e37]: Toggle menu
+    - generic [ref=e39]:
+      - generic [ref=e41]:
+        - heading "Learning Management System" [level=2] [ref=e43]
+        - button [ref=e44] [cursor=pointer]:
+          - img
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - heading "Dashboard" [level=3] [ref=e47]
+            - generic [ref=e48]:
+              - link "Admin Dashboard" [ref=e50] [cursor=pointer]:
+                - /url: /lms/admin
+                - img [ref=e51]
+                - text: Admin Dashboard
+              - link "Student Dashboard" [ref=e53] [cursor=pointer]:
+                - /url: /lms/student
+                - img [ref=e54]
+                - text: Student Dashboard
+          - generic [ref=e56]:
+            - heading "Manajemen Modul" [level=3] [ref=e57]
+            - generic [ref=e58]:
+              - link "Semua Modul" [ref=e60] [cursor=pointer]:
+                - /url: /lms/admin/module
+                - img [ref=e61]
+                - text: Semua Modul
+              - link "Kelola Peserta" [ref=e64] [cursor=pointer]:
+                - /url: /lms/admin/participants
+                - img [ref=e65]
+                - text: Kelola Peserta
+          - generic [ref=e70]:
+            - heading "Ujian & Penilaian" [level=3] [ref=e71]
+            - link "Buat Ujian" [ref=e74] [cursor=pointer]:
+              - /url: /lms/admin/exam/create
+              - img [ref=e75]
+              - text: Buat Ujian
+          - generic [ref=e76]:
+            - heading "Pembelajaran" [level=3] [ref=e77]
+            - generic [ref=e78]:
+              - link "Modul Saya" [ref=e80] [cursor=pointer]:
+                - /url: /lms/student/learning
+                - img [ref=e81]
+                - text: Modul Saya
+              - link "Ujian Saya" [ref=e84] [cursor=pointer]:
+                - /url: /lms/student/exam
+                - img [ref=e85]
+                - text: Ujian Saya
+              - link "Hasil & Sertifikat" [ref=e89] [cursor=pointer]:
+                - /url: /lms/student/results
+                - img [ref=e90]
+                - text: Hasil & Sertifikat
+      - main [ref=e93]:
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - generic [ref=e98]:
+              - heading "Manajemen Modul" [level=1] [ref=e99]
+              - paragraph [ref=e100]: Kelola modul pembelajaran dan konten edukasi
+            - button "Buat Modul Baru" [ref=e101] [cursor=pointer]:
+              - img
+              - text: Buat Modul Baru
+          - generic [ref=e102]:
+            - generic [ref=e103]:
+              - generic [ref=e104]:
+                - heading "Total Modul" [level=3] [ref=e105]
+                - img [ref=e106]
+              - generic [ref=e109]: "16506"
+            - generic [ref=e110]:
+              - generic [ref=e111]:
+                - heading "Total Peserta" [level=3] [ref=e112]
+                - img [ref=e113]
+              - generic [ref=e118]:
+                - generic [ref=e119]: "69"
+                - paragraph [ref=e120]: Terdaftar di semua modul
+            - generic [ref=e121]:
+              - generic [ref=e122]:
+                - heading "Rata-rata Penyelesaian" [level=3] [ref=e123]
+                - img [ref=e124]
+              - generic [ref=e127]:
+                - generic [ref=e128]: 26%
+                - paragraph [ref=e129]: Dari semua modul
+            - generic [ref=e130]:
+              - generic [ref=e131]:
+                - heading "Modul Aktif" [level=3] [ref=e132]
+                - img [ref=e133]
+              - generic [ref=e136]:
+                - generic [ref=e137]: "24"
+                - paragraph [ref=e138]: Siap dipelajari
+          - generic [ref=e139]:
+            - generic [ref=e140]:
+              - img [ref=e141]
+              - textbox "Cari modul..." [active] [ref=e144]: test
+            - combobox [ref=e145] [cursor=pointer]:
+              - generic: Semua Status
+              - img [ref=e146]
+            - combobox [ref=e148] [cursor=pointer]:
+              - generic: Semua Tingkat
+              - img [ref=e149]
+            - generic [ref=e151]:
+              - checkbox "Dibuat oleh saya" [ref=e152] [cursor=pointer]
+              - generic [ref=e153]: Dibuat oleh saya
+          - generic [ref=e154]:
+            - generic [ref=e155]:
+              - heading "Daftar Modul Pembelajaran" [level=3] [ref=e156]
+              - paragraph [ref=e157]: Menampilkan 10 dari 29 modul
+            - generic [ref=e158]:
+              - table [ref=e160]:
+                - rowgroup [ref=e161]:
+                  - row "Modul Kategori Tingkat Peserta Penyelesaian Status Diperbarui Aksi" [ref=e162]:
+                    - columnheader "Modul" [ref=e163]
+                    - columnheader "Kategori" [ref=e164]
+                    - columnheader "Tingkat" [ref=e165]
+                    - columnheader "Peserta" [ref=e166]
+                    - columnheader "Penyelesaian" [ref=e167]
+                    - columnheader "Status" [ref=e168]
+                    - columnheader "Diperbarui" [ref=e169]
+                    - columnheader "Aksi" [ref=e170]
+                - rowgroup [ref=e171]:
+                  - row "testref testref Food Safety beginner 0 0% Diterbitkan 4/9/2025" [ref=e172]:
+                    - cell "testref testref" [ref=e173]:
+                      - generic [ref=e174]:
+                        - generic [ref=e175]: testref
+                        - generic [ref=e176]: testref
+                    - cell "Food Safety" [ref=e177]:
+                      - generic [ref=e178]: Food Safety
+                    - cell "beginner" [ref=e179]:
+                      - generic [ref=e180]: beginner
+                    - cell "0" [ref=e181]:
+                      - generic [ref=e182]:
+                        - img [ref=e183]
+                        - generic [ref=e188]: "0"
+                    - cell "0%" [ref=e189]:
+                      - generic [ref=e190]: 0%
+                    - cell "Diterbitkan" [ref=e191]:
+                      - generic [ref=e192]: Diterbitkan
+                    - cell "4/9/2025" [ref=e193]:
+                      - generic [ref=e194]: 4/9/2025
+                    - cell [ref=e195]:
+                      - generic [ref=e196]:
+                        - button [ref=e197] [cursor=pointer]:
+                          - img
+                        - button [ref=e198] [cursor=pointer]:
+                          - img
+                        - button [ref=e199] [cursor=pointer]:
+                          - img
+                  - row "testing exam exam tesing Training beginner 0 0% Diterbitkan 4/9/2025" [ref=e200]:
+                    - cell "testing exam exam tesing" [ref=e201]:
+                      - generic [ref=e202]:
+                        - generic [ref=e203]: testing exam
+                        - generic [ref=e204]: exam tesing
+                    - cell "Training" [ref=e205]:
+                      - generic [ref=e206]: Training
+                    - cell "beginner" [ref=e207]:
+                      - generic [ref=e208]: beginner
+                    - cell "0" [ref=e209]:
+                      - generic [ref=e210]:
+                        - img [ref=e211]
+                        - generic [ref=e216]: "0"
+                    - cell "0%" [ref=e217]:
+                      - generic [ref=e218]: 0%
+                    - cell "Diterbitkan" [ref=e219]:
+                      - generic [ref=e220]: Diterbitkan
+                    - cell "4/9/2025" [ref=e221]:
+                      - generic [ref=e222]: 4/9/2025
+                    - cell [ref=e223]:
+                      - generic [ref=e224]:
+                        - button [ref=e225] [cursor=pointer]:
+                          - img
+                        - button [ref=e226] [cursor=pointer]:
+                          - img
+                        - button [ref=e227] [cursor=pointer]:
+                          - img
+                  - row "final test final testing Quality Control beginner 0 0% Diterbitkan 5/9/2025" [ref=e228]:
+                    - cell "final test final testing" [ref=e229]:
+                      - generic [ref=e230]:
+                        - generic [ref=e231]: final test
+                        - generic [ref=e232]: final testing
+                    - cell "Quality Control" [ref=e233]:
+                      - generic [ref=e234]: Quality Control
+                    - cell "beginner" [ref=e235]:
+                      - generic [ref=e236]: beginner
+                    - cell "0" [ref=e237]:
+                      - generic [ref=e238]:
+                        - img [ref=e239]
+                        - generic [ref=e244]: "0"
+                    - cell "0%" [ref=e245]:
+                      - generic [ref=e246]: 0%
+                    - cell "Diterbitkan" [ref=e247]:
+                      - generic [ref=e248]: Diterbitkan
+                    - cell "5/9/2025" [ref=e249]:
+                      - generic [ref=e250]: 5/9/2025
+                    - cell [ref=e251]:
+                      - generic [ref=e252]:
+                        - button [ref=e253] [cursor=pointer]:
+                          - img
+                        - button [ref=e254] [cursor=pointer]:
+                          - img
+                        - button [ref=e255] [cursor=pointer]:
+                          - img
+                  - row "test t Food Safety beginner 0 0% Draft 6/9/2025" [ref=e256]:
+                    - cell "test t" [ref=e257]:
+                      - generic [ref=e258]:
+                        - generic [ref=e259]: test
+                        - generic [ref=e260]: t
+                    - cell "Food Safety" [ref=e261]:
+                      - generic [ref=e262]: Food Safety
+                    - cell "beginner" [ref=e263]:
+                      - generic [ref=e264]: beginner
+                    - cell "0" [ref=e265]:
+                      - generic [ref=e266]:
+                        - img [ref=e267]
+                        - generic [ref=e272]: "0"
+                    - cell "0%" [ref=e273]:
+                      - generic [ref=e274]: 0%
+                    - cell "Draft" [ref=e275]:
+                      - generic [ref=e276]: Draft
+                    - cell "6/9/2025" [ref=e277]:
+                      - generic [ref=e278]: 6/9/2025
+                    - cell [ref=e279]:
+                      - generic [ref=e280]:
+                        - button [ref=e281] [cursor=pointer]:
+                          - img
+                        - button [ref=e282] [cursor=pointer]:
+                          - img
+                        - button [ref=e283] [cursor=pointer]:
+                          - img
+                  - row "test tst Sanitasi beginner 0 0% Draft 8/9/2025" [ref=e284]:
+                    - cell "test tst" [ref=e285]:
+                      - generic [ref=e286]:
+                        - generic [ref=e287]: test
+                        - generic [ref=e288]: tst
+                    - cell "Sanitasi" [ref=e289]:
+                      - generic [ref=e290]: Sanitasi
+                    - cell "beginner" [ref=e291]:
+                      - generic [ref=e292]: beginner
+                    - cell "0" [ref=e293]:
+                      - generic [ref=e294]:
+                        - img [ref=e295]
+                        - generic [ref=e300]: "0"
+                    - cell "0%" [ref=e301]:
+                      - generic [ref=e302]: 0%
+                    - cell "Draft" [ref=e303]:
+                      - generic [ref=e304]: Draft
+                    - cell "8/9/2025" [ref=e305]:
+                      - generic [ref=e306]: 8/9/2025
+                    - cell [ref=e307]:
+                      - generic [ref=e308]:
+                        - button [ref=e309] [cursor=pointer]:
+                          - img
+                        - button [ref=e310] [cursor=pointer]:
+                          - img
+                        - button [ref=e311] [cursor=pointer]:
+                          - img
+                  - row "testattempt testattempt Food Safety beginner 1 100% Draft 20/10/2025" [ref=e312]:
+                    - cell "testattempt testattempt" [ref=e313]:
+                      - generic [ref=e314]:
+                        - generic [ref=e315]: testattempt
+                        - generic [ref=e316]: testattempt
+                    - cell "Food Safety" [ref=e317]:
+                      - generic [ref=e318]: Food Safety
+                    - cell "beginner" [ref=e319]:
+                      - generic [ref=e320]: beginner
+                    - cell "1" [ref=e321]:
+                      - generic [ref=e322]:
+                        - img [ref=e323]
+                        - generic [ref=e328]: "1"
+                    - cell "100%" [ref=e329]:
+                      - generic [ref=e330]: 100%
+                    - cell "Draft" [ref=e331]:
+                      - generic [ref=e332]: Draft
+                    - cell "20/10/2025" [ref=e333]:
+                      - generic [ref=e334]: 20/10/2025
+                    - cell [ref=e335]:
+                      - generic [ref=e336]:
+                        - button [ref=e337] [cursor=pointer]:
+                          - img
+                        - button [ref=e338] [cursor=pointer]:
+                          - img
+                        - button [ref=e339] [cursor=pointer]:
+                          - img
+                  - row "testexam testexam Sanitasi beginner 4 25% Draft 21/10/2025" [ref=e340]:
+                    - cell "testexam testexam" [ref=e341]:
+                      - generic [ref=e342]:
+                        - generic [ref=e343]: testexam
+                        - generic [ref=e344]: testexam
+                    - cell "Sanitasi" [ref=e345]:
+                      - generic [ref=e346]: Sanitasi
+                    - cell "beginner" [ref=e347]:
+                      - generic [ref=e348]: beginner
+                    - cell "4" [ref=e349]:
+                      - generic [ref=e350]:
+                        - img [ref=e351]
+                        - generic [ref=e356]: "4"
+                    - cell "25%" [ref=e357]:
+                      - generic [ref=e358]: 25%
+                    - cell "Draft" [ref=e359]:
+                      - generic [ref=e360]: Draft
+                    - cell "21/10/2025" [ref=e361]:
+                      - generic [ref=e362]: 21/10/2025
+                    - cell [ref=e363]:
+                      - generic [ref=e364]:
+                        - button [ref=e365] [cursor=pointer]:
+                          - img
+                        - button [ref=e366] [cursor=pointer]:
+                          - img
+                        - button [ref=e367] [cursor=pointer]:
+                          - img
+                  - row "test test Food Safety beginner 1 100% Draft 29/10/2025" [ref=e368]:
+                    - cell "test test" [ref=e369]:
+                      - generic [ref=e370]:
+                        - generic [ref=e371]: test
+                        - generic [ref=e372]: test
+                    - cell "Food Safety" [ref=e373]:
+                      - generic [ref=e374]: Food Safety
+                    - cell "beginner" [ref=e375]:
+                      - generic [ref=e376]: beginner
+                    - cell "1" [ref=e377]:
+                      - generic [ref=e378]:
+                        - img [ref=e379]
+                        - generic [ref=e384]: "1"
+                    - cell "100%" [ref=e385]:
+                      - generic [ref=e386]: 100%
+                    - cell "Draft" [ref=e387]:
+                      - generic [ref=e388]: Draft
+                    - cell "29/10/2025" [ref=e389]:
+                      - generic [ref=e390]: 29/10/2025
+                    - cell [ref=e391]:
+                      - generic [ref=e392]:
+                        - button [ref=e393] [cursor=pointer]:
+                          - img
+                        - button [ref=e394] [cursor=pointer]:
+                          - img
+                        - button [ref=e395] [cursor=pointer]:
+                          - img
+                  - row "testpdf testpdf Food Safety beginner 0 0% Draft 30/10/2025" [ref=e396]:
+                    - cell "testpdf testpdf" [ref=e397]:
+                      - generic [ref=e398]:
+                        - generic [ref=e399]: testpdf
+                        - generic [ref=e400]: testpdf
+                    - cell "Food Safety" [ref=e401]:
+                      - generic [ref=e402]: Food Safety
+                    - cell "beginner" [ref=e403]:
+                      - generic [ref=e404]: beginner
+                    - cell "0" [ref=e405]:
+                      - generic [ref=e406]:
+                        - img [ref=e407]
+                        - generic [ref=e412]: "0"
+                    - cell "0%" [ref=e413]:
+                      - generic [ref=e414]: 0%
+                    - cell "Draft" [ref=e415]:
+                      - generic [ref=e416]: Draft
+                    - cell "30/10/2025" [ref=e417]:
+                      - generic [ref=e418]: 30/10/2025
+                    - cell [ref=e419]:
+                      - generic [ref=e420]:
+                        - button [ref=e421] [cursor=pointer]:
+                          - img
+                        - button [ref=e422] [cursor=pointer]:
+                          - img
+                        - button [ref=e423] [cursor=pointer]:
+                          - img
+                  - row "Test Modul Deskripsi HACCP beginner 3 33.33333% Draft 1/11/2025" [ref=e424]:
+                    - cell "Test Modul Deskripsi" [ref=e425]:
+                      - generic [ref=e426]:
+                        - generic [ref=e427]: Test Modul
+                        - generic [ref=e428]: Deskripsi
+                    - cell "HACCP" [ref=e429]:
+                      - generic [ref=e430]: HACCP
+                    - cell "beginner" [ref=e431]:
+                      - generic [ref=e432]: beginner
+                    - cell "3" [ref=e433]:
+                      - generic [ref=e434]:
+                        - img [ref=e435]
+                        - generic [ref=e440]: "3"
+                    - cell "33.33333%" [ref=e441]:
+                      - generic [ref=e442]: 33.33333%
+                    - cell "Draft" [ref=e443]:
+                      - generic [ref=e444]: Draft
+                    - cell "1/11/2025" [ref=e445]:
+                      - generic [ref=e446]: 1/11/2025
+                    - cell [ref=e447]:
+                      - generic [ref=e448]:
+                        - button [ref=e449] [cursor=pointer]:
+                          - img
+                        - button [ref=e450] [cursor=pointer]:
+                          - img
+                        - button [ref=e451] [cursor=pointer]:
+                          - img
+              - generic [ref=e453]:
+                - generic [ref=e454]:
+                  - paragraph [ref=e455]: Baris per halaman
+                  - combobox [ref=e456] [cursor=pointer]:
+                    - generic: "10"
+                    - img [ref=e457]
+                - generic [ref=e459]:
+                  - generic [ref=e460]: Halaman 1 dari 3
+                  - generic [ref=e461]:
+                    - button "Halaman pertama" [disabled]:
+                      - generic: Halaman pertama
+                      - img
+                    - button "Halaman sebelumnya" [disabled]:
+                      - generic: Halaman sebelumnya
+                      - img
+                    - button "Halaman berikutnya" [ref=e462] [cursor=pointer]:
+                      - generic [ref=e463]: Halaman berikutnya
+                      - img
+                    - button "Halaman terakhir" [ref=e464] [cursor=pointer]:
+                      - generic [ref=e465]: Halaman terakhir
+                      - img
+    - contentinfo [ref=e466]:
+      - generic [ref=e467]:
+        - paragraph [ref=e468]: © 2026 BGN Head Office Support System. All rights reserved.
+        - generic [ref=e469]:
+          - link "Terms of Service" [ref=e470] [cursor=pointer]:
+            - /url: /terms-of-service
+          - link "Privacy Policy" [ref=e471] [cursor=pointer]:
+            - /url: /privacy-policy
+    - region "Notifications (F8)":
+      - list
+    - generic [ref=e472]:
+      - button "Hide support label" [ref=e473] [cursor=pointer]:
+        - img "WhatsApp Support Label" [ref=e474]
+      - link "Contact WhatsApp support" [ref=e475] [cursor=pointer]:
+        - /url: https://wa.me/6281110008008
+        - img "WhatsApp Support" [ref=e476]
+```

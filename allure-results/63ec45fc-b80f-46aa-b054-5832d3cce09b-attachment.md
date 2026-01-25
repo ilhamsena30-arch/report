@@ -1,0 +1,238 @@
+# Page snapshot
+
+```yaml
+- generic:
+  - alert
+  - generic:
+    - banner:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - link:
+                - /url: /
+                - img
+                - generic: Portal SIPHR
+            - navigation:
+              - navigation:
+                - list:
+                  - generic:
+                    - listitem: /
+                    - listitem:
+                      - link:
+                        - /url: /lms
+                        - text: Pelatihan & Karir
+                  - generic:
+                    - listitem: /
+                    - listitem:
+                      - link:
+                        - /url: /lms/admin
+                        - text: Admin Dashboard
+                  - generic:
+                    - listitem: /
+                    - listitem:
+                      - link:
+                        - /url: /lms/admin/module
+                        - text: Semua Modul
+                  - generic:
+                    - listitem: /
+                    - listitem:
+                      - link [disabled]: Buat Baru
+      - generic:
+        - link:
+          - /url: /
+          - img
+        - generic:
+          - button:
+            - img
+          - button:
+            - generic: M
+          - button:
+            - img
+            - generic: Toggle menu
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - heading [level=2]: Learning Management System
+            - button:
+              - img
+            - generic:
+              - generic:
+                - heading [level=3]: Dashboard
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /lms/admin
+                      - img
+                      - text: Admin Dashboard
+                  - generic:
+                    - link:
+                      - /url: /lms/student
+                      - img
+                      - text: Student Dashboard
+              - generic:
+                - heading [level=3]: Manajemen Modul
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /lms/admin/module
+                      - img
+                      - text: Semua Modul
+                  - generic:
+                    - link:
+                      - /url: /lms/admin/participants
+                      - img
+                      - text: Kelola Peserta
+              - generic:
+                - heading [level=3]: Ujian & Penilaian
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /lms/admin/exam/create
+                      - img
+                      - text: Buat Ujian
+              - generic:
+                - heading [level=3]: Pembelajaran
+                - generic:
+                  - generic:
+                    - link:
+                      - /url: /lms/student/learning
+                      - img
+                      - text: Modul Saya
+                  - generic:
+                    - link:
+                      - /url: /lms/student/exam
+                      - img
+                      - text: Ujian Saya
+                  - generic:
+                    - link:
+                      - /url: /lms/student/results
+                      - img
+                      - text: Hasil & Sertifikat
+        - main:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - button:
+                      - img
+                      - text: Kembali
+                    - generic:
+                      - heading [level=1]: Buat Modul Baru
+                      - paragraph: Ikuti langkah-langkah berikut untuk membuat modul pembelajaran
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading [level=2]: "Progress: 5 dari 6"
+                    - generic: 83%
+                  - progressbar
+            - generic:
+              - generic:
+                - generic:
+                  - button:
+                    - img
+                    - text: Info Dasar
+                  - button:
+                    - img
+                    - text: Konten
+                  - button:
+                    - img
+                    - text: Penilaian
+                  - button:
+                    - img
+                    - text: Peserta
+                  - button:
+                    - img
+                    - text: Pengaturan
+                  - button:
+                    - img
+                    - text: Preview
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading [level=2]: Pengaturan Publikasi
+                    - paragraph: Konfigurasikan pengaturan publikasi dan akses modul
+                  - generic:
+                    - generic:
+                      - generic:
+                        - heading [level=3]: Pengaturan Publikasi
+                      - generic:
+                        - generic:
+                          - generic:
+                            - checkbox
+                            - generic: Publikasikan otomatis setelah selesai
+                          - generic:
+                            - checkbox [checked]:
+                              - generic:
+                                - img
+                            - generic: Kirim notifikasi ke target peserta
+                          - generic:
+                            - checkbox
+                            - generic: Izinkan preview untuk instruktur
+                        - generic:
+                          - generic:
+                            - text: Tanggal Mulai Tersedia
+                            - textbox
+                          - generic:
+                            - text: Deadline Penyelesaian
+                            - textbox
+              - generic:
+                - button:
+                  - img
+                  - text: Sebelumnya
+                - generic:
+                  - button [active]:
+                    - text: Selanjutnya
+                    - img
+    - contentinfo:
+      - generic:
+        - paragraph: © 2026 BGN Head Office Support System. All rights reserved.
+        - generic:
+          - link:
+            - /url: /terms-of-service
+            - text: Terms of Service
+          - link:
+            - /url: /privacy-policy
+            - text: Privacy Policy
+    - region "Notifications (F8)":
+      - list
+    - generic:
+      - button:
+        - img
+      - link:
+        - /url: https://wa.me/6281110008008
+        - img
+  - alertdialog "Validasi Gagal" [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - img [ref=e6]
+        - generic [ref=e8]:
+          - heading "Validasi Gagal" [level=2] [ref=e9]
+          - paragraph [ref=e10]: "Terdapat kesalahan yang perlu diperbaiki sebelum melanjutkan:"
+        - button [ref=e11] [cursor=pointer]:
+          - img [ref=e12]
+      - generic [ref=e16]:
+        - img [ref=e17]
+        - text: 2 Errors
+    - generic [ref=e20]:
+      - heading "Pengaturan Umum" [level=4] [ref=e21]
+      - generic [ref=e22]:
+        - generic [ref=e24]:
+          - img [ref=e26]
+          - generic [ref=e28]:
+            - generic [ref=e30]: Tanggal Mulai Tersedia
+            - paragraph [ref=e31]: Tanggal Mulai Tersedia harus diisi
+        - generic [ref=e33]:
+          - img [ref=e35]
+          - generic [ref=e37]:
+            - generic [ref=e39]: Deadline Penyelesaian
+            - paragraph [ref=e40]: Deadline Penyelesaian harus diisi
+    - generic [ref=e42]:
+      - generic [ref=e43]: Perbaiki semua error untuk melanjutkan ke langkah berikutnya
+      - button "Perbaiki Sekarang" [ref=e44] [cursor=pointer]
+```

@@ -1,0 +1,454 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e7]:
+        - link "Portal SIPHR" [ref=e9] [cursor=pointer]:
+          - /url: /
+          - img [ref=e10]
+          - generic [ref=e13]: Portal SIPHR
+        - navigation "Breadcrumb" [ref=e14]:
+          - navigation "breadcrumb" [ref=e15]:
+            - list [ref=e16]:
+              - generic [ref=e17]:
+                - listitem [ref=e18]: /
+                - listitem [ref=e19]:
+                  - link "Navigasi ke Manajemen Tenaga Kerja" [ref=e20] [cursor=pointer]:
+                    - /url: /manajemen-tenaga-kerja
+                    - text: Manajemen Tenaga Kerja
+              - generic [ref=e21]:
+                - listitem [ref=e22]: /
+                - listitem [ref=e23]:
+                  - link "Navigasi ke Manajemen Cuti" [ref=e24] [cursor=pointer]:
+                    - /url: /manajemen-tenaga-kerja/leave
+                    - text: Manajemen Cuti
+              - generic [ref=e25]:
+                - listitem [ref=e26]: /
+                - listitem [ref=e27]:
+                  - 'link "Halaman saat ini: Pengajuan Cuti" [disabled] [ref=e28]': Pengajuan Cuti
+      - generic [ref=e29]:
+        - link "BGN Logo" [ref=e30] [cursor=pointer]:
+          - /url: /
+          - img "BGN Logo" [ref=e31]
+        - generic [ref=e32]:
+          - button [ref=e33] [cursor=pointer]:
+            - img
+          - button "M" [ref=e34] [cursor=pointer]:
+            - generic [ref=e35]: M
+          - button "Toggle menu" [ref=e36] [cursor=pointer]:
+            - img
+            - generic [ref=e37]: Toggle menu
+    - generic [ref=e39]:
+      - generic [ref=e41]:
+        - heading "Manajemen Tenaga Kerja" [level=2] [ref=e43]
+        - button [ref=e44] [cursor=pointer]:
+          - img
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - heading "Kantor Pusat" [level=3] [ref=e47]
+            - link "Database Karyawan" [ref=e50] [cursor=pointer]:
+              - /url: /manajemen-tenaga-kerja/employees
+              - img [ref=e51]
+              - text: Database Karyawan
+          - generic [ref=e54]:
+            - heading "SPPG" [level=3] [ref=e55]
+            - generic [ref=e56]:
+              - link "Staf SPPG" [ref=e58] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/kitchen-employees
+                - img [ref=e59]
+                - text: Staf SPPG
+              - link "Database SPPG" [ref=e62] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/kitchen
+                - img [ref=e63]
+                - text: Database SPPG
+          - generic [ref=e65]:
+            - heading "Manajemen" [level=3] [ref=e66]
+            - generic [ref=e67]:
+              - link "Kehadiran" [ref=e69] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/attendance
+                - img [ref=e70]
+                - text: Kehadiran
+              - link "Kehadiran Online" [ref=e74] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/attendance/online
+                - img [ref=e75]
+                - text: Kehadiran Online
+              - link "Aktivitas Harian" [ref=e80] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/aktivitas-harian
+                - img [ref=e81]
+                - text: Aktivitas Harian
+              - link "Jadwal Pekerja" [ref=e85] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/attendance/shift
+                - img [ref=e86]
+                - text: Jadwal Pekerja
+              - link "Manajemen Cuti" [ref=e92] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/leave
+                - img [ref=e93]
+                - text: Manajemen Cuti
+          - generic [ref=e95]:
+            - heading "Penggajian" [level=3] [ref=e96]
+            - generic [ref=e97]:
+              - link "Laporan" [ref=e99] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/payroll
+                - img [ref=e100]
+                - text: Laporan
+              - link "Buat Laporan" [ref=e104] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/payroll/create
+                - img [ref=e105]
+                - text: Buat Laporan
+      - main [ref=e108]:
+        - generic [ref=e109]:
+          - button "Kembali" [ref=e110] [cursor=pointer]:
+            - img
+            - text: Kembali
+          - generic [ref=e111]:
+            - heading "Pengajuan Cuti" [level=1] [ref=e112]
+            - paragraph [ref=e113]: Ajukan permohonan cuti dengan mudah dan cepat
+          - generic [ref=e114]:
+            - generic [ref=e115]:
+              - heading "Form Pengajuan Cuti" [level=3] [ref=e116]
+              - paragraph [ref=e117]: Isi form di bawah ini untuk mengajukan cuti
+            - generic [ref=e119]:
+              - generic [ref=e120]:
+                - text: Jenis Cuti
+                - combobox "Jenis Cuti" [ref=e121] [cursor=pointer]:
+                  - generic: Cuti Sakit
+                  - img [ref=e122]
+                - combobox [ref=e124]
+              - generic [ref=e125]:
+                - generic [ref=e126]:
+                  - generic [ref=e127]: Tanggal Mulai
+                  - button "Tanggal Mulai" [expanded] [ref=e128] [cursor=pointer]:
+                    - generic [ref=e129]: Pilih tanggal
+                    - img
+                - generic [ref=e130]:
+                  - generic [ref=e131]: Tanggal Selesai
+                  - button "Tanggal Selesai" [disabled]:
+                    - generic: Pilih tanggal mulai dulu
+                    - img
+                - generic [ref=e132]:
+                  - generic [ref=e133]: Durasi Cuti
+                  - generic [ref=e134]:
+                    - img [ref=e135]
+                    - generic [ref=e137]: 0 hari
+              - generic [ref=e138]:
+                - text: Alasan Cuti
+                - textbox "Alasan Cuti" [ref=e139]:
+                  - /placeholder: Jelaskan alasan pengajuan cuti...
+              - generic [ref=e142]:
+                - generic [ref=e143] [cursor=pointer]:
+                  - text: Lampiran Dokumen (Opsional)
+                  - img [ref=e144]
+                - paragraph [ref=e147]: "Format yang didukung: PDF, JPG, JPEG, PNG, GIF (Max 5MB, maksimal 1 file)"
+                - generic [ref=e148] [cursor=pointer]:
+                  - img [ref=e149]
+                  - paragraph [ref=e152]: Klik untuk memilih file
+                  - paragraph [ref=e153]: atau drag and drop file di sini
+              - button "Kirim Pengajuan" [ref=e154] [cursor=pointer]:
+                - img
+                - text: Kirim Pengajuan
+    - contentinfo [ref=e155]:
+      - generic [ref=e156]:
+        - paragraph [ref=e157]: © 2026 BGN Head Office Support System. All rights reserved.
+        - generic [ref=e158]:
+          - link "Terms of Service" [ref=e159] [cursor=pointer]:
+            - /url: /terms-of-service
+          - link "Privacy Policy" [ref=e160] [cursor=pointer]:
+            - /url: /privacy-policy
+    - region "Notifications (F8)":
+      - list
+    - generic [ref=e161]:
+      - button "Hide support label" [ref=e162] [cursor=pointer]:
+        - img "WhatsApp Support Label" [ref=e163]
+      - link "Contact WhatsApp support" [ref=e164] [cursor=pointer]:
+        - /url: https://wa.me/6281110008008
+        - img "WhatsApp Support" [ref=e165]
+  - dialog [ref=e166]:
+    - generic [ref=e169]:
+      - generic [ref=e170]:
+        - generic [ref=e171]:
+          - generic [ref=e173]: January 2026
+          - generic [ref=e174]:
+            - generic [ref=e175]: "Month:"
+            - combobox "Month:" [ref=e176]:
+              - option "January" [selected]
+              - option "February"
+              - option "March"
+              - option "April"
+              - option "May"
+              - option "June"
+              - option "July"
+              - option "August"
+              - option "September"
+              - option "October"
+              - option "November"
+              - option "December"
+            - generic [ref=e177]:
+              - text: January
+              - img [ref=e178]
+          - generic [ref=e180]:
+            - generic [ref=e181]: "Year:"
+            - combobox "Year:" [ref=e182]:
+              - option "1900"
+              - option "1901"
+              - option "1902"
+              - option "1903"
+              - option "1904"
+              - option "1905"
+              - option "1906"
+              - option "1907"
+              - option "1908"
+              - option "1909"
+              - option "1910"
+              - option "1911"
+              - option "1912"
+              - option "1913"
+              - option "1914"
+              - option "1915"
+              - option "1916"
+              - option "1917"
+              - option "1918"
+              - option "1919"
+              - option "1920"
+              - option "1921"
+              - option "1922"
+              - option "1923"
+              - option "1924"
+              - option "1925"
+              - option "1926"
+              - option "1927"
+              - option "1928"
+              - option "1929"
+              - option "1930"
+              - option "1931"
+              - option "1932"
+              - option "1933"
+              - option "1934"
+              - option "1935"
+              - option "1936"
+              - option "1937"
+              - option "1938"
+              - option "1939"
+              - option "1940"
+              - option "1941"
+              - option "1942"
+              - option "1943"
+              - option "1944"
+              - option "1945"
+              - option "1946"
+              - option "1947"
+              - option "1948"
+              - option "1949"
+              - option "1950"
+              - option "1951"
+              - option "1952"
+              - option "1953"
+              - option "1954"
+              - option "1955"
+              - option "1956"
+              - option "1957"
+              - option "1958"
+              - option "1959"
+              - option "1960"
+              - option "1961"
+              - option "1962"
+              - option "1963"
+              - option "1964"
+              - option "1965"
+              - option "1966"
+              - option "1967"
+              - option "1968"
+              - option "1969"
+              - option "1970"
+              - option "1971"
+              - option "1972"
+              - option "1973"
+              - option "1974"
+              - option "1975"
+              - option "1976"
+              - option "1977"
+              - option "1978"
+              - option "1979"
+              - option "1980"
+              - option "1981"
+              - option "1982"
+              - option "1983"
+              - option "1984"
+              - option "1985"
+              - option "1986"
+              - option "1987"
+              - option "1988"
+              - option "1989"
+              - option "1990"
+              - option "1991"
+              - option "1992"
+              - option "1993"
+              - option "1994"
+              - option "1995"
+              - option "1996"
+              - option "1997"
+              - option "1998"
+              - option "1999"
+              - option "2000"
+              - option "2001"
+              - option "2002"
+              - option "2003"
+              - option "2004"
+              - option "2005"
+              - option "2006"
+              - option "2007"
+              - option "2008"
+              - option "2009"
+              - option "2010"
+              - option "2011"
+              - option "2012"
+              - option "2013"
+              - option "2014"
+              - option "2015"
+              - option "2016"
+              - option "2017"
+              - option "2018"
+              - option "2019"
+              - option "2020"
+              - option "2021"
+              - option "2022"
+              - option "2023"
+              - option "2024"
+              - option "2025"
+              - option "2026" [selected]
+              - option "2027"
+              - option "2028"
+              - option "2029"
+              - option "2030"
+              - option "2031"
+              - option "2032"
+              - option "2033"
+              - option "2034"
+              - option "2035"
+              - option "2036"
+              - option "2037"
+              - option "2038"
+              - option "2039"
+              - option "2040"
+              - option "2041"
+              - option "2042"
+              - option "2043"
+              - option "2044"
+              - option "2045"
+              - option "2046"
+              - option "2047"
+              - option "2048"
+              - option "2049"
+              - option "2050"
+              - option "2051"
+              - option "2052"
+              - option "2053"
+              - option "2054"
+              - option "2055"
+              - option "2056"
+              - option "2057"
+              - option "2058"
+              - option "2059"
+              - option "2060"
+              - option "2061"
+              - option "2062"
+              - option "2063"
+              - option "2064"
+              - option "2065"
+              - option "2066"
+              - option "2067"
+              - option "2068"
+              - option "2069"
+              - option "2070"
+              - option "2071"
+              - option "2072"
+              - option "2073"
+              - option "2074"
+              - option "2075"
+              - option "2076"
+              - option "2077"
+              - option "2078"
+              - option "2079"
+              - option "2080"
+              - option "2081"
+              - option "2082"
+              - option "2083"
+              - option "2084"
+              - option "2085"
+              - option "2086"
+              - option "2087"
+              - option "2088"
+              - option "2089"
+              - option "2090"
+              - option "2091"
+              - option "2092"
+              - option "2093"
+              - option "2094"
+              - option "2095"
+              - option "2096"
+              - option "2097"
+              - option "2098"
+              - option "2099"
+              - option "2100"
+            - generic [ref=e183]:
+              - text: "2026"
+              - img [ref=e184]
+        - generic [ref=e186]:
+          - button "Go to previous month" [ref=e187] [cursor=pointer]:
+            - img
+          - button "Go to next month" [ref=e188] [cursor=pointer]:
+            - img
+      - grid "January 2026" [ref=e189]:
+        - rowgroup [ref=e190]:
+          - row "Sunday Monday Tuesday Wednesday Thursday Friday Saturday" [ref=e191]:
+            - columnheader "Sunday" [ref=e192]: Su
+            - columnheader "Monday" [ref=e193]: Mo
+            - columnheader "Tuesday" [ref=e194]: Tu
+            - columnheader "Wednesday" [ref=e195]: We
+            - columnheader "Thursday" [ref=e196]: Th
+            - columnheader "Friday" [ref=e197]: Fr
+            - columnheader "Saturday" [ref=e198]: Sa
+        - rowgroup [ref=e199]:
+          - row "28 29 30 31 1 2 3" [ref=e200]:
+            - gridcell "28" [disabled]
+            - gridcell "29" [disabled]
+            - gridcell "30" [disabled]
+            - gridcell "31" [disabled]
+            - gridcell "1" [disabled]
+            - gridcell "2" [disabled]
+            - gridcell "3" [disabled]
+          - row "4 5 6 7 8 9 10" [ref=e201]:
+            - gridcell "4" [disabled]
+            - gridcell "5" [disabled]
+            - gridcell "6" [disabled]
+            - gridcell "7" [disabled]
+            - gridcell "8" [disabled]
+            - gridcell "9" [disabled]
+            - gridcell "10" [disabled]
+          - row "11 12 13 14 15 16 17" [ref=e202]:
+            - gridcell "11" [disabled]
+            - gridcell "12" [disabled]
+            - gridcell "13" [disabled]
+            - gridcell "14" [disabled]
+            - gridcell "15" [disabled]
+            - gridcell "16" [disabled]
+            - gridcell "17" [disabled]
+          - row "18 19 20 21 22 23 24" [ref=e203]:
+            - gridcell "18" [disabled]
+            - gridcell "19" [disabled]
+            - gridcell "20" [disabled]
+            - gridcell "21" [disabled]
+            - gridcell "22" [disabled]
+            - gridcell "23" [disabled]
+            - gridcell "24" [disabled]
+          - row "25 26 27 28 29 30 31" [ref=e204]:
+            - gridcell "25" [disabled]
+            - gridcell "26" [active] [ref=e205] [cursor=pointer]
+            - gridcell "27" [ref=e206] [cursor=pointer]
+            - gridcell "28" [ref=e207] [cursor=pointer]
+            - gridcell "29" [ref=e208] [cursor=pointer]
+            - gridcell "30" [ref=e209] [cursor=pointer]
+            - gridcell "31" [disabled]
+```

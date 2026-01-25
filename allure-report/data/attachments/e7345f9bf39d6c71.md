@@ -1,0 +1,163 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - alert [ref=e2]
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e7]:
+        - link "Portal SIPHR" [ref=e9] [cursor=pointer]:
+          - /url: /
+          - img [ref=e10]
+          - generic [ref=e13]: Portal SIPHR
+        - navigation "Breadcrumb" [ref=e14]:
+          - navigation "breadcrumb" [ref=e15]:
+            - list [ref=e16]:
+              - generic [ref=e17]:
+                - listitem [ref=e18]: /
+                - listitem [ref=e19]:
+                  - link "Navigasi ke Manajemen Tenaga Kerja" [ref=e20] [cursor=pointer]:
+                    - /url: /manajemen-tenaga-kerja
+                    - text: Manajemen Tenaga Kerja
+              - generic [ref=e21]:
+                - listitem [ref=e22]: /
+                - listitem [ref=e23]:
+                  - link "Navigasi ke Manajemen Cuti" [ref=e24] [cursor=pointer]:
+                    - /url: /manajemen-tenaga-kerja/leave
+                    - text: Manajemen Cuti
+              - generic [ref=e25]:
+                - listitem [ref=e26]: /
+                - listitem [ref=e27]:
+                  - 'link "Halaman saat ini: Persetujuan" [disabled] [ref=e28]': Persetujuan
+      - generic [ref=e29]:
+        - link "BGN Logo" [ref=e30] [cursor=pointer]:
+          - /url: /
+          - img "BGN Logo" [ref=e31]
+        - generic [ref=e32]:
+          - button [ref=e33] [cursor=pointer]:
+            - img
+          - button "M" [ref=e34] [cursor=pointer]:
+            - generic [ref=e35]: M
+          - button "Toggle menu" [active] [ref=e36] [cursor=pointer]:
+            - img
+            - generic [ref=e37]: Toggle menu
+    - generic [ref=e39]:
+      - generic [ref=e41]:
+        - heading "Manajemen Tenaga Kerja" [level=2] [ref=e43]
+        - button [ref=e44] [cursor=pointer]:
+          - img
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - heading "Kantor Pusat" [level=3] [ref=e47]
+            - link "Database Karyawan" [ref=e50] [cursor=pointer]:
+              - /url: /manajemen-tenaga-kerja/employees
+              - img [ref=e51]
+              - text: Database Karyawan
+          - generic [ref=e54]:
+            - heading "SPPG" [level=3] [ref=e55]
+            - generic [ref=e56]:
+              - link "Staf SPPG" [ref=e58] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/kitchen-employees
+                - img [ref=e59]
+                - text: Staf SPPG
+              - link "Database SPPG" [ref=e62] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/kitchen
+                - img [ref=e63]
+                - text: Database SPPG
+          - generic [ref=e65]:
+            - heading "Manajemen" [level=3] [ref=e66]
+            - generic [ref=e67]:
+              - link "Kehadiran" [ref=e69] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/attendance
+                - img [ref=e70]
+                - text: Kehadiran
+              - link "Kehadiran Online" [ref=e74] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/attendance/online
+                - img [ref=e75]
+                - text: Kehadiran Online
+              - link "Aktivitas Harian" [ref=e80] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/aktivitas-harian
+                - img [ref=e81]
+                - text: Aktivitas Harian
+              - link "Jadwal Pekerja" [ref=e85] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/attendance/shift
+                - img [ref=e86]
+                - text: Jadwal Pekerja
+              - link "Manajemen Cuti" [ref=e92] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/leave
+                - img [ref=e93]
+                - text: Manajemen Cuti
+          - generic [ref=e95]:
+            - heading "Penggajian" [level=3] [ref=e96]
+            - generic [ref=e97]:
+              - link "Laporan" [ref=e99] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/payroll
+                - img [ref=e100]
+                - text: Laporan
+              - link "Buat Laporan" [ref=e104] [cursor=pointer]:
+                - /url: /manajemen-tenaga-kerja/payroll/create
+                - img [ref=e105]
+                - text: Buat Laporan
+      - main [ref=e108]:
+        - generic [ref=e109]:
+          - button "Kembali" [ref=e110] [cursor=pointer]:
+            - img
+            - text: Kembali
+          - generic [ref=e111]:
+            - heading "Persetujuan Cuti" [level=2] [ref=e112]
+            - paragraph [ref=e113]: Kelola persetujuan cuti dari tim Anda
+          - generic [ref=e114]:
+            - generic [ref=e115]:
+              - generic [ref=e116]:
+                - heading "Total Menunggu" [level=3] [ref=e117]
+                - img [ref=e118]
+              - generic [ref=e121]:
+                - generic [ref=e122]: "0"
+                - paragraph [ref=e123]: Pengajuan menunggu persetujuan
+            - generic [ref=e124]:
+              - generic [ref=e125]:
+                - heading "Halaman Saat Ini" [level=3] [ref=e126]
+                - img [ref=e127]
+              - generic [ref=e132]:
+                - generic [ref=e133]: "0"
+                - paragraph [ref=e134]: Pengajuan di halaman ini
+            - generic [ref=e135]:
+              - generic [ref=e136]:
+                - heading "Total Halaman" [level=3] [ref=e137]
+                - img [ref=e138]
+              - generic [ref=e142]:
+                - generic [ref=e143]: "0"
+                - paragraph [ref=e144]: Halaman tersedia
+          - generic [ref=e145]:
+            - generic [ref=e146]:
+              - heading "Filter dan Pencarian" [level=3] [ref=e147]
+              - paragraph [ref=e148]: Filter pengajuan cuti berdasarkan departemen dan pencarian
+            - generic [ref=e150]:
+              - textbox "Cari berdasarkan nama karyawan, jenis cuti, atau alasan..." [ref=e152]
+              - combobox [ref=e154] [cursor=pointer]:
+                - generic: Semua Departemen
+                - img [ref=e155]
+          - generic [ref=e157]:
+            - generic [ref=e158]:
+              - heading "Daftar Pengajuan Cuti" [level=3] [ref=e159]
+              - paragraph [ref=e160]: Kelola persetujuan pengajuan cuti karyawan
+            - generic [ref=e162]:
+              - img [ref=e163]
+              - paragraph [ref=e168]: Tidak ada pengajuan cuti yang menunggu persetujuan
+    - contentinfo [ref=e169]:
+      - generic [ref=e170]:
+        - paragraph [ref=e171]: © 2026 BGN Head Office Support System. All rights reserved.
+        - generic [ref=e172]:
+          - link "Terms of Service" [ref=e173] [cursor=pointer]:
+            - /url: /terms-of-service
+          - link "Privacy Policy" [ref=e174] [cursor=pointer]:
+            - /url: /privacy-policy
+    - region "Notifications (F8)":
+      - list
+    - generic [ref=e175]:
+      - button "Hide support label" [ref=e176] [cursor=pointer]:
+        - img "WhatsApp Support Label" [ref=e177]
+      - link "Contact WhatsApp support" [ref=e178] [cursor=pointer]:
+        - /url: https://wa.me/6281110008008
+        - img "WhatsApp Support" [ref=e179]
+```
